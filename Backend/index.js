@@ -13,14 +13,26 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Rutas
-app.use('/api/users', require('./routes/usuariosRoutes'));
-app.use('/api/services', require('./routes/serviciosRoutes'));
-app.use('/api/appointments', require('./routes/citasRoutes'));
-app.use('/api/portfolios', require('./routes/portafolioRoutes'));
+// Ruta para usuario
+app.use('/api/user', require('./routes/usuariosRoutes'));
+
+// Ruta para servicio
+app.use('/api/service', require('./routes/serviciosRoutes'));
+
+// Ruta para cita
+app.use('/api/appointment', require('./routes/citasRoutes'));
+
+// Ruta para portafolio
+app.use('/api/portfolio', require('./routes/portafolioRoutes'));
+
+// Ruta para la galería
 app.use('/api/gallery', require('./routes/galeriaRoutes'));
-app.use('/api/notifications', require('./routes/notificacionesRoutes'));
-app.use('/api/transactions', require('./routes/transaccionesRoutes'));
+
+// Ruta para notificación
+app.use('/api/notification', require('./routes/notificacionesRoutes'));
+
+// Ruta para transacción
+app.use('/api/transaction', require('./routes/transaccionesRoutes'));
 
 // Iniciar servidor
 app.listen(PORT, () => {
