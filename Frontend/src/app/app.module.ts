@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AcercaDeComponent } from './pages/acerca-de/acerca-de.component';
+import { PortafolioComponent } from './pages/portafolio/portafolio.component';
+import { PortafolioDetailComponent } from './pages/portafolio-detail/portafolio-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AcercaDeComponent,
+    PortafolioComponent,
+    PortafolioDetailComponent
   ],
   imports: [
     BrowserModule,

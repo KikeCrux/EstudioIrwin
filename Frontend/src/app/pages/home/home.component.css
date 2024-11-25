@@ -1,0 +1,1079 @@
+.inicio {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.inicio .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 6713px;
+    position: relative;
+}
+
+.inicio .overlap {
+    position: absolute;
+    width: 194px;
+    height: 67px;
+    top: 4943px;
+    left: 1173px;
+    background-color: #e9e1d9;
+}
+
+.inicio .text-wrapper {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #555555;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .overlap-group {
+    position: absolute;
+    width: 1441px;
+    height: 398px;
+    top: 6359px;
+    left: 0;
+    background-color: #f7f7f7;
+}
+
+.inicio .logo {
+    width: 305px;
+    height: 134px;
+    top: 6px;
+    left: 575px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.inicio .text-wrapper-2 {
+    top: 31px;
+    left: 108px;
+    color: #343434;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-3 {
+    position: absolute;
+    top: 31px;
+    left: 221px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-4 {
+    top: 31px;
+    left: 920px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    letter-spacing: 1.10px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-5 {
+    top: 31px;
+    left: 1105px;
+    color: #343434;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-6 {
+    top: 31px;
+    left: 386px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    letter-spacing: 1.10px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-7 {
+    top: 31px;
+    left: 1192px;
+    color: #343434;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .p {
+    position: absolute;
+    width: 619px;
+    top: 156px;
+    left: 418px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .vector {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 291px;
+    left: 619px;
+}
+
+.inicio .img {
+    position: absolute;
+    width: 32px;
+    height: 25px;
+    top: 294px;
+    left: 675px;
+}
+
+.inicio .vector-2 {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: 296px;
+    left: 733px;
+}
+
+.inicio .vector-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 291px;
+    left: 789px;
+}
+
+.inicio .text-wrapper-8 {
+    position: absolute;
+    top: 353px;
+    left: 541px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 500;
+    color: #2d2d2d;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.inicio .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1350px;
+    top: 116px;
+    left: 0;
+}
+
+.inicio .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 913px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.inicio .rectangle-2 {
+    position: absolute;
+    width: 1438px;
+    height: 553px;
+    top: 797px;
+    left: 2px;
+    background-color: #f3f3f3;
+}
+
+.inicio .text-wrapper-9 {
+    position: absolute;
+    width: 1066px;
+    top: 1122px;
+    left: 181px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #4e4e4e;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-10 {
+    position: absolute;
+    width: 733px;
+    top: 1056px;
+    left: 353px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 5.60px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-11 {
+    position: absolute;
+    top: 984px;
+    left: 387px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #4a4a4a;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .vector-4 {
+    position: absolute;
+    width: 105px;
+    height: 115px;
+    top: 862px;
+    left: 670px;
+    object-fit: cover;
+}
+
+.inicio .overlap-3 {
+    position: absolute;
+    width: 1440px;
+    height: 116px;
+    top: 0;
+    left: 0;
+    background-color: #f5f5f5cc;
+}
+
+.inicio .overlap-4 {
+    position: absolute;
+    width: 393px;
+    height: 112px;
+    top: 2px;
+    left: 461px;
+}
+
+.inicio .text-wrapper-12 {
+    top: 31px;
+    left: 0;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    letter-spacing: 1.10px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .logo-2 {
+    width: 264px;
+    height: 112px;
+    top: 0;
+    left: 129px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.inicio .text-wrapper-13 {
+    top: 33px;
+    left: 881px;
+    color: #353535;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-14 {
+    top: 33px;
+    left: 1005px;
+    color: #353535;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-15 {
+    position: absolute;
+    top: 35px;
+    left: 1220px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-16 {
+    top: 33px;
+    left: 31px;
+    color: #353535;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-17 {
+    position: absolute;
+    top: 33px;
+    left: 145px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .servicio {
+    position: absolute;
+    top: 33px;
+    left: 316px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.inicio .author-bio-photo {
+    position: absolute;
+    width: 692px;
+    height: 920px;
+    top: 1466px;
+    left: 0;
+    object-fit: cover;
+}
+
+.inicio .donde-cada-momento {
+    position: absolute;
+    width: 614px;
+    top: 1734px;
+    left: 742px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #2d2d2d;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-18 {
+    top: 1477px;
+    left: 1061px;
+    font-size: 300px;
+    position: absolute;
+    width: 21px;
+    font-family: "Forum", Helvetica;
+    font-weight: 400;
+    color: #e9e1d9;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.inicio .text-wrapper-19 {
+    top: 2502px;
+    left: 625px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    letter-spacing: 5.60px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-20 {
+    position: absolute;
+    top: 2547px;
+    left: 481px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 3.20px;
+    line-height: normal;
+}
+
+.inicio .overlap-5 {
+    position: absolute;
+    width: 370px;
+    height: 552px;
+    top: 2692px;
+    left: 775px;
+    background-color: #f7f7f7;
+}
+
+.inicio .text-wrapper-21 {
+    position: absolute;
+    top: 208px;
+    left: 93px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #575757;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 3.00px;
+    line-height: normal;
+}
+
+.inicio .overlap-6 {
+    position: absolute;
+    width: 198px;
+    height: 84px;
+    top: 319px;
+    left: 86px;
+}
+
+.inicio .text-wrapper-22 {
+    font-size: 48px;
+    letter-spacing: 2.40px;
+    position: absolute;
+    width: 198px;
+    top: 22px;
+    left: 0;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #5a5a5a;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-23 {
+    position: absolute;
+    width: 198px;
+    top: 0;
+    left: 0;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 1.60px;
+    line-height: normal;
+}
+
+.inicio .group {
+    top: 448px;
+    position: absolute;
+    width: 211px;
+    height: 66px;
+    left: 81px;
+}
+
+.inicio .div-wrapper {
+    position: relative;
+    width: 217px;
+    height: 74px;
+    top: -4px;
+    left: -4px;
+    background-color: #e9e1d9;
+}
+
+.inicio .text-wrapper-24 {
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #484848;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .OBJECTS {
+    position: absolute;
+    width: 102px;
+    height: 129px;
+    top: 58px;
+    left: 135px;
+    object-fit: cover;
+}
+
+.inicio .overlap-7 {
+    position: absolute;
+    width: 370px;
+    height: 551px;
+    top: 2693px;
+    left: 339px;
+    background-color: #f7f7f7;
+}
+
+.inicio .text-wrapper-25 {
+    position: absolute;
+    top: 197px;
+    left: 93px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #575757;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 3.00px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-26 {
+    font-size: 50px;
+    letter-spacing: 2.50px;
+    position: absolute;
+    width: 198px;
+    top: 22px;
+    left: 0;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #5a5a5a;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .overlap-group-wrapper {
+    top: 447px;
+    position: absolute;
+    width: 211px;
+    height: 66px;
+    left: 81px;
+}
+
+.inicio .group-2 {
+    position: absolute;
+    width: 71px;
+    height: 135px;
+    top: 57px;
+    left: 161px;
+    object-fit: cover;
+}
+
+.inicio .text-wrapper-27 {
+    position: absolute;
+    top: 4280px;
+    left: 465px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 3.20px;
+    line-height: normal;
+}
+
+.inicio .overlap-8 {
+    position: absolute;
+    width: 572px;
+    height: 366px;
+    top: 4518px;
+    left: -10px;
+}
+
+.inicio .rectangle-3 {
+    position: absolute;
+    width: 572px;
+    height: 323px;
+    top: 43px;
+    left: 0;
+    background-color: #f7f7f7;
+}
+
+.inicio .text-wrapper-28 {
+    position: absolute;
+    top: 130px;
+    left: 217px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #555555;
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: 2.30px;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-29 {
+    position: absolute;
+    width: 409px;
+    top: 194px;
+    left: 116px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-30 {
+    left: 115px;
+    font-family: "Cormorant", Helvetica;
+    font-weight: 600;
+    color: #b58b61;
+    font-size: 120px;
+    letter-spacing: 6.00px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .rectangle-4 {
+    position: absolute;
+    width: 394px;
+    height: 470px;
+    top: 4414px;
+    left: 562px;
+    object-fit: cover;
+}
+
+.inicio .rectangle-5 {
+    position: absolute;
+    width: 373px;
+    height: 470px;
+    top: 4414px;
+    left: 994px;
+    object-fit: cover;
+}
+
+.inicio .text-wrapper-31 {
+    top: 4239px;
+    left: 629px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    letter-spacing: 5.60px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .overlap-9 {
+    position: absolute;
+    width: 1432px;
+    height: 717px;
+    top: 3416px;
+    left: 0;
+}
+
+.inicio .rectangle-6 {
+    position: absolute;
+    width: 351px;
+    height: 717px;
+    top: 0;
+    left: 1081px;
+    background-color: #f7f7f7;
+}
+
+.inicio .hero-image {
+    position: absolute;
+    width: 1081px;
+    height: 717px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.inicio .rectangle-7 {
+    position: absolute;
+    width: 440px;
+    height: 591px;
+    top: 63px;
+    left: 861px;
+    background-color: #ffffffe6;
+}
+
+.inicio .text-wrapper-32 {
+    position: absolute;
+    width: 320px;
+    top: 368px;
+    left: 922px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #414141;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-33 {
+    position: absolute;
+    width: 389px;
+    top: 228px;
+    left: 887px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #686868;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 2.25px;
+    line-height: normal;
+}
+
+.inicio .vector-5 {
+    position: absolute;
+    width: 75px;
+    height: 103px;
+    top: 104px;
+    left: 1044px;
+    object-fit: cover;
+}
+
+.inicio .rectangle-8 {
+    position: absolute;
+    width: 420px;
+    height: 568px;
+    top: 74px;
+    left: 871px;
+    border: 0.4px solid;
+    border-color: #b58b61;
+}
+
+.inicio .overlap-10 {
+    position: absolute;
+    width: 1442px;
+    height: 606px;
+    top: 5177px;
+    left: -10px;
+    background-color: #f7f7f7;
+}
+
+.inicio .rectangle-9 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 78px;
+    left: 746px;
+}
+
+.inicio .overlap-11 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 78px;
+    left: 249px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #e9e1d9;
+}
+
+.inicio .text-wrapper-34 {
+    position: absolute;
+    width: 354px;
+    top: 159px;
+    left: 47px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #4e4e4e;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .jorge {
+    position: absolute;
+    width: 320px;
+    top: 340px;
+    left: 64px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #414141;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-35 {
+    top: 42px;
+    left: 211px;
+    -webkit-text-stroke: 2px #e9e1d9;
+    font-size: 200px;
+    position: absolute;
+    width: 21px;
+    font-family: "Forum", Helvetica;
+    font-weight: 400;
+    color: #e9e1d9;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.inicio .overlap-12 {
+    position: absolute;
+    width: 39px;
+    height: 57px;
+    top: 262px;
+    left: 1218px;
+}
+
+.inicio .rectangle-10 {
+    position: absolute;
+    width: 39px;
+    height: 57px;
+    top: 0;
+    left: 0;
+    background-color: #e9e1d9;
+    transform: rotate(180.00deg);
+}
+
+.inicio .izquierda {
+    position: absolute;
+    width: 39px;
+    height: 57px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.inicio .overlap-13 {
+    position: absolute;
+    width: 39px;
+    height: 57px;
+    top: 262px;
+    left: 186px;
+    background-color: #e9e1d9;
+    /*background-image: url(https://c.animaapp.com/sFe5oWus/img/derecha-1@2x.png);*/
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.inicio .text-wrapper-36 {
+    position: absolute;
+    top: 5068px;
+    left: 419px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #555555;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 3.50px;
+    line-height: normal;
+}
+
+.inicio .overlap-14 {
+    position: absolute;
+    width: 271px;
+    height: 202px;
+    top: 6002px;
+    left: 143px;
+}
+
+.inicio .text-wrapper-37 {
+    left: 52px;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 128px;
+    letter-spacing: 6.40px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-38 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #525252;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .overlap-15 {
+    position: absolute;
+    width: 297px;
+    height: 197px;
+    top: 6007px;
+    left: 783px;
+}
+
+.inicio .text-wrapper-39 {
+    position: absolute;
+    top: 145px;
+    left: 29px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #525252;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .text-wrapper-40 {
+    left: 0;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 128px;
+    letter-spacing: 6.40px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .overlap-16 {
+    position: absolute;
+    width: 216px;
+    height: 243px;
+    top: 6013px;
+    left: 1150px;
+}
+
+.inicio .text-wrapper-41 {
+    left: 24px;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 128px;
+    letter-spacing: 6.40px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: normal;
+}
+
+.inicio .reconocimientos {
+    position: absolute;
+    top: 139px;
+    left: 0;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #525252;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .overlap-17 {
+    position: absolute;
+    width: 234px;
+    height: 202px;
+    top: 6002px;
+    left: 480px;
+}
+
+.inicio .element {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    font-family: "Playfair Display", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: 6.40px;
+    line-height: normal;
+}
+
+.inicio .span {
+    letter-spacing: 8.19px;
+}
+
+.inicio .text-wrapper-42 {
+    font-size: 96px;
+    letter-spacing: 4.61px;
+}
+
+.inicio .text-wrapper-43 {
+    position: absolute;
+    width: 755px;
+    top: 5880px;
+    left: 328px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2.00px;
+    line-height: normal;
+}
+
+.inicio .overlap-18 {
+    position: absolute;
+    width: 217px;
+    height: 74px;
+    top: 2323px;
+    left: 941px;
+    background-color: #e9e1d9;
+}
+
+.inicio .text-wrapper-44 {
+    position: absolute;
+    top: 17px;
+    left: 53px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #484848;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inicio .vector-6 {
+    position: absolute;
+    width: 329px;
+    height: 58px;
+    top: 2245px;
+    left: 890px;
+    object-fit: cover;
+}
