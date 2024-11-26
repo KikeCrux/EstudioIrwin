@@ -1,0 +1,861 @@
+.blog {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.blog .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 4533px;
+    position: relative;
+}
+
+.blog .overlap {
+    position: absolute;
+    width: 1130px;
+    height: 618px;
+    top: 824px;
+    left: 134px;
+}
+
+.blog .rectangle {
+    position: absolute;
+    width: 514px;
+    height: 386px;
+    top: 228px;
+    left: 0;
+}
+
+.blog .img {
+    position: absolute;
+    width: 514px;
+    height: 386px;
+    top: 232px;
+    left: 616px;
+}
+
+.blog .text-wrapper {
+    position: absolute;
+    width: 624px;
+    top: 0;
+    left: 274px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-2 {
+    top: 1711px;
+    left: 134px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-3 {
+    top: 1669px;
+    left: 202px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .p {
+    position: absolute;
+    width: 508px;
+    top: 1775px;
+    left: 134px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .la-mu-eca-de-la {
+    position: absolute;
+    width: 556px;
+    top: 1468px;
+    left: 134px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 48px;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-4 {
+    top: 1664px;
+    left: 134px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-5 {
+    position: absolute;
+    top: 1716px;
+    left: 257px;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-6 {
+    top: 1715px;
+    left: 750px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-7 {
+    top: 1673px;
+    left: 819px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-8 {
+    position: absolute;
+    width: 508px;
+    top: 1779px;
+    left: 750px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .el-pastel-de-quincea {
+    position: absolute;
+    width: 556px;
+    top: 1472px;
+    left: 750px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 48px;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-9 {
+    top: 1668px;
+    left: 750px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-10 {
+    top: 1720px;
+    left: 872px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-11 {
+    top: 2670px;
+    left: 134px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-12 {
+    top: 2628px;
+    left: 201px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-13 {
+    position: absolute;
+    width: 508px;
+    top: 2734px;
+    left: 134px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-14 {
+    position: absolute;
+    width: 556px;
+    top: 2427px;
+    left: 134px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 48px;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-15 {
+    top: 2623px;
+    left: 134px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-16 {
+    top: 2675px;
+    left: 255px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-17 {
+    top: 2674px;
+    left: 750px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-18 {
+    top: 2632px;
+    left: 823px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-19 {
+    position: absolute;
+    width: 508px;
+    top: 2738px;
+    left: 750px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-20 {
+    position: absolute;
+    width: 556px;
+    top: 2431px;
+    left: 750px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 48px;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-21 {
+    top: 2627px;
+    left: 750px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-22 {
+    top: 2679px;
+    left: 871px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-23 {
+    top: 3633px;
+    left: 134px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-24 {
+    top: 3591px;
+    left: 206px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-25 {
+    position: absolute;
+    width: 508px;
+    top: 3697px;
+    left: 134px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .las-ofrendas-para-la {
+    position: absolute;
+    width: 556px;
+    top: 3390px;
+    left: 134px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 48px;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-26 {
+    top: 3586px;
+    left: 134px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-27 {
+    top: 3638px;
+    left: 256px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-28 {
+    top: 3637px;
+    left: 750px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-29 {
+    top: 3595px;
+    left: 817px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-30 {
+    position: absolute;
+    width: 508px;
+    top: 3701px;
+    left: 750px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .el-ramo-para-la {
+    position: absolute;
+    width: 556px;
+    top: 3394px;
+    left: 750px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 48px;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-31 {
+    top: 3590px;
+    left: 750px;
+    position: absolute;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .text-wrapper-32 {
+    top: 3642px;
+    left: 872px;
+    position: absolute;
+    font-family: "Dancing Script", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.20px;
+    line-height: normal;
+}
+
+.blog .rectangle-2 {
+    position: absolute;
+    width: 514px;
+    height: 386px;
+    top: 1990px;
+    left: 134px;
+}
+
+.blog .rectangle-3 {
+    position: absolute;
+    width: 514px;
+    height: 386px;
+    top: 1994px;
+    left: 750px;
+}
+
+.blog .rectangle-4 {
+    position: absolute;
+    width: 514px;
+    height: 386px;
+    top: 2951px;
+    left: 134px;
+}
+
+.blog .rectangle-5 {
+    position: absolute;
+    width: 514px;
+    height: 386px;
+    top: 2955px;
+    left: 750px;
+}
+
+.blog .text-wrapper-33 {
+    position: absolute;
+    top: 694px;
+    left: 387px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 3.20px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-34 {
+    width: 733px;
+    top: 626px;
+    left: 354px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    letter-spacing: 5.60px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.blog .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 441px;
+    top: 4092px;
+    left: 0;
+    background-color: #f7f7f7;
+}
+
+.blog .text-wrapper-35 {
+    top: 25px;
+    left: 107px;
+    color: #343434;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-36 {
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-37 {
+    top: 25px;
+    left: 919px;
+    color: #343434;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-38 {
+    top: 25px;
+    left: 1104px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    letter-spacing: 1.10px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.blog .text-wrapper-39 {
+    top: 25px;
+    left: 392px;
+    color: #343434;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-40 {
+    top: 25px;
+    left: 1190px;
+    color: #343434;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-41 {
+    position: absolute;
+    width: 619px;
+    top: 133px;
+    left: 410px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.blog .vector {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 285px;
+    left: 618px;
+}
+
+.blog .vector-2 {
+    position: absolute;
+    width: 32px;
+    height: 25px;
+    top: 288px;
+    left: 674px;
+}
+
+.blog .vector-3 {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: 290px;
+    left: 732px;
+}
+
+.blog .vector-4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 285px;
+    left: 788px;
+}
+
+.blog .text-wrapper-42 {
+    position: absolute;
+    top: 347px;
+    left: 540px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 500;
+    color: #2d2d2d;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.blog .overlap-2 {
+    position: absolute;
+    width: 1454px;
+    height: 519px;
+    top: -100px;
+    left: 0;
+}
+
+.blog .rectangle-6 {
+    position: absolute;
+    width: 1440px;
+    height: 418px;
+    top: 101px;
+    left: 0;
+}
+
+.blog .group {
+    position: absolute;
+    width: 1454px;
+    height: 105px;
+    top: 0;
+    left: 0;
+}
+
+.blog .overlap-3 {
+    position: absolute;
+    width: 393px;
+    height: 101px;
+    top: 2px;
+    left: 461px;
+}
+
+.blog .text-wrapper-43 {
+    width: 131px;
+    top: 29px;
+    left: 0;
+    color: #353535;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .logo {
+    position: absolute;
+    width: 264px;
+    height: 101px;
+    top: 0;
+    left: 129px;
+    object-fit: cover;
+}
+
+.blog .text-wrapper-44 {
+    width: 62px;
+    top: 31px;
+    left: 881px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    letter-spacing: 1.10px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.blog .text-wrapper-45 {
+    width: 165px;
+    top: 31px;
+    left: 1005px;
+    color: #353535;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-46 {
+    position: absolute;
+    width: 158px;
+    top: 33px;
+    left: 1220px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.blog .text-wrapper-47 {
+    width: 73px;
+    top: 31px;
+    left: 31px;
+    color: #353535;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.blog .text-wrapper-48 {
+    position: absolute;
+    width: 124px;
+    top: 31px;
+    left: 145px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.blog .text-wrapper-49 {
+    width: 104px;
+    top: 31px;
+    left: 316px;
+    color: #353535;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
