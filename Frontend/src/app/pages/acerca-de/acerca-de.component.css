@@ -550,7 +550,7 @@
     background-color: #e9e1d9;
 }
 
-.acerca-de .text-wrapper-20 {
+.acerca-de .text-wrapper-20 a {
     position: absolute;
     top: 15px;
     left: 25px;
@@ -560,6 +560,13 @@
     font-size: 28px;
     letter-spacing: 0;
     line-height: normal;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.acerca-de .text-wrapper-20 a:hover {
+    color: #ba9f84;
+    transform: scale(1.05);
 }
 
 .acerca-de .rectangle-6 {

@@ -525,6 +525,13 @@
     font-size: 28px;
     letter-spacing: 0;
     line-height: normal;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.inicio .text-wrapper-24:hover {
+    color: #ba9f84;
+    transform: scale(1.05);
 }
 
 .inicio .OBJECTS {

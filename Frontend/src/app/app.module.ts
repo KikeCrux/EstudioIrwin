@@ -12,6 +12,9 @@ import { PortafolioDetailComponent } from './pages/portafolio-detail/portafolio-
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactanosComponent } from './pages/contactanos/contactanos.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegistrarComponent } from './pages/registrar/registrar.component';
+import { CalendarioComponent } from './pages/calendario/calendario.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ContactanosComponent } from './pages/contactanos/contactanos.component'
     PortafolioDetailComponent,
     ServiciosComponent,
     BlogComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    LoginComponent,
+    RegistrarComponent,
+    CalendarioComponent
   ],
   imports: [
     BrowserModule,

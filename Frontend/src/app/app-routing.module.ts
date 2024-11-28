@@ -7,6 +7,9 @@ import { PortafolioDetailComponent } from './pages/portafolio-detail/portafolio-
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { ContactanosComponent } from './pages/contactanos/contactanos.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegistrarComponent } from './pages/registrar/registrar.component';
+import { CalendarioComponent } from './pages/calendario/calendario.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +17,9 @@ const routes: Routes = [
   { path: 'servicio', component: ServiciosComponent },
   { path: 'contactanos', component: ContactanosComponent },
   { path: 'blog', component: BlogComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'registrar', component: RegistrarComponent },
+  { path: 'calendario', component: CalendarioComponent },
   { path: '**', redirectTo: '' }
 ];
 

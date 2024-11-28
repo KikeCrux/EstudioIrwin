@@ -1,0 +1,699 @@
+.calendario {
+    background-color: #fffefc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.calendario .div {
+    background-color: #fffefc;
+    width: 1440px;
+    height: 1747px;
+    position: relative;
+}
+
+.calendario .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 566px;
+    top: 514px;
+    left: 0;
+}
+
+.calendario .frame {
+    position: absolute;
+    width: 1440px;
+    height: 566px;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 0px #00000040;
+    background: linear-gradient(180deg,
+            rgb(181, 139, 97) 8.18%,
+            rgb(181.46, 139.05, 96.63) 86.47%,
+            rgb(186.56, 159.74, 132.93) 100%);
+}
+
+.calendario .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 12px 0px 0px;
+    position: absolute;
+    top: 67px;
+    left: 117px;
+}
+
+.calendario .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.calendario .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.calendario .vector {
+    position: relative;
+    width: 172px;
+    height: 3px;
+    margin-bottom: -1.50px;
+}
+
+.calendario .p {
+    position: relative;
+    width: 708px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.calendario .frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+    height: 432px;
+    align-items: flex-start;
+    gap: 56px;
+    position: absolute;
+    top: 55px;
+    left: 916px;
+}
+
+.calendario .month-selector {
+    position: relative;
+    width: 417.63px;
+    height: 29px;
+}
+
+.calendario .text-wrapper-2 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 0;
+    font-family: var(--bold-font-family);
+    font-weight: var(--bold-font-weight);
+    color: #ffffff;
+    font-size: var(--bold-font-size);
+    text-align: center;
+    letter-spacing: var(--bold-letter-spacing);
+    line-height: var(--bold-line-height);
+    font-style: var(--bold-font-style);
+}
+
+.calendario .arrows {
+    position: absolute;
+    width: 41px;
+    height: 13px;
+    top: 8px;
+    left: 376px;
+}
+
+.calendario .calendar-events {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.calendario .weekdays-weeks {
+    position: relative;
+    width: 413px;
+    height: 334px;
+}
+
+.calendario .weekdays {
+    position: absolute;
+    width: 427px;
+    height: 29px;
+    top: 0;
+    left: 0;
+}
+
+.calendario .text-wrapper-3 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 0;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    color: #ffffff;
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-4 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 70px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    color: #ffffff;
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-5 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 132px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    color: #ffffff;
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-6 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 202px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    color: #ffffff;
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-7 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 265px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    color: #ffffff;
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-8 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 321px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    color: #ffffff;
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-9 {
+    position: absolute;
+    height: 29px;
+    top: 0;
+    left: 383px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    color: #ffffff;
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .week {
+    position: absolute;
+    width: 203px;
+    height: 29px;
+    top: 61px;
+    left: 211px;
+}
+
+.calendario .text-wrapper-10 {
+    top: 0;
+    left: 59px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-11 {
+    top: 0;
+    left: 117px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-12 {
+    top: 0;
+    left: 179px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .week-2 {
+    position: absolute;
+    width: 413px;
+    height: 56px;
+    top: 108px;
+    left: 11px;
+}
+
+.calendario .text-wrapper-13 {
+    top: 14px;
+    left: 0;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-14 {
+    top: 14px;
+    left: 65px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-15 {
+    top: 14px;
+    left: 132px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .overlap-group {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 0;
+    left: 178px;
+    background-color: #ffffff;
+    border-radius: 28px;
+}
+
+.calendario .text-wrapper-16 {
+    top: 14px;
+    left: 20px;
+    color: var(--system-colors-miscellaneous-keyboard-emoji-mic);
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-17 {
+    top: 14px;
+    left: 258px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-18 {
+    top: 14px;
+    left: 312px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-19 {
+    top: 14px;
+    left: 376px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .week-3 {
+    position: absolute;
+    width: 421px;
+    height: 29px;
+    top: 183px;
+    left: 5px;
+}
+
+.calendario .text-wrapper-20 {
+    top: 0;
+    left: 66px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-21 {
+    top: 0;
+    left: 131px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-22 {
+    top: 0;
+    left: 199px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-23 {
+    top: 0;
+    left: 259px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-24 {
+    top: 0;
+    left: 318px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-25 {
+    top: 0;
+    left: 380px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .week-4 {
+    position: absolute;
+    width: 422px;
+    height: 29px;
+    top: 244px;
+    left: 5px;
+}
+
+.calendario .text-wrapper-26 {
+    top: 0;
+    left: 64px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-27 {
+    top: 0;
+    left: 197px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-28 {
+    top: 0;
+    left: 257px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-29 {
+    top: 0;
+    left: 316px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-30 {
+    top: 0;
+    left: 378px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .week-5 {
+    position: absolute;
+    width: 361px;
+    height: 29px;
+    top: 305px;
+    left: 3px;
+}
+
+.calendario .text-wrapper-31 {
+    top: 0;
+    left: 67px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .text-wrapper-32 {
+    top: 0;
+    left: 322px;
+    color: #ffffff;
+    position: absolute;
+    height: 29px;
+    font-family: var(--default-font-family);
+    font-weight: var(--default-font-weight);
+    font-size: var(--default-font-size);
+    text-align: center;
+    letter-spacing: var(--default-letter-spacing);
+    line-height: var(--default-line-height);
+    font-style: var(--default-font-style);
+}
+
+.calendario .div-wrapper {
+    display: flex;
+    width: 323px;
+    height: 84px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 40px;
+    position: absolute;
+    top: 338px;
+    left: 309px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 16px #b58b61;
+    background: linear-gradient(180deg,
+            rgb(90.51, 90.51, 90.51) 0%,
+            rgba(102, 102, 102, 0.63) 100%);
+}
+
+.calendario .text-wrapper-33 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-bottom: -2.00px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: -1.08px;
+    line-height: 46.8px;
+    white-space: nowrap;
+}
+
+.calendario .rectangle {
+    height: 514px;
+    top: 0;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+    object-fit: cover;
+}
+
+.calendario .img {
+    height: 667px;
+    top: 1080px;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+    object-fit: cover;
+}
