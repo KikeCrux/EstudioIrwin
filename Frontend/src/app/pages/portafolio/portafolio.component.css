@@ -1,0 +1,825 @@
+.portfolio {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.portfolio .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 5151px;
+    position: relative;
+}
+
+.portfolio .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 435px;
+    top: 4716px;
+    left: 0;
+    background-color: #f7f7f7;
+}
+
+.portfolio .logo {
+    width: 279px;
+    height: 135px;
+    left: 585px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.portfolio .text-wrapper {
+    position: absolute;
+    top: 42px;
+    left: 121px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-2 {
+    position: absolute;
+    top: 42px;
+    left: 222px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-3 {
+    top: 42px;
+    left: 919px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    letter-spacing: 1.10px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-4 {
+    position: absolute;
+    top: 42px;
+    left: 1104px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-5 {
+    position: absolute;
+    top: 42px;
+    left: 393px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-6 {
+    position: absolute;
+    top: 42px;
+    left: 1213px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+}
+
+.portfolio .p {
+    position: absolute;
+    width: 619px;
+    top: 150px;
+    left: 410px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #2d2d2d;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.portfolio .vector {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 302px;
+    left: 618px;
+}
+
+.portfolio .img {
+    position: absolute;
+    width: 32px;
+    height: 25px;
+    top: 305px;
+    left: 674px;
+}
+
+.portfolio .vector-2 {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: 307px;
+    left: 732px;
+}
+
+.portfolio .vector-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 302px;
+    left: 788px;
+}
+
+.portfolio .text-wrapper-7 {
+    position: absolute;
+    top: 364px;
+    left: 540px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 500;
+    color: #2d2d2d;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-group {
+    position: absolute;
+    width: 1439px;
+    height: 513px;
+    top: 3069px;
+    left: 0;
+    background-image: url(https://c.animaapp.com/IEFEYurz/img/rectangle-511.svg);
+    background-size: 100% 100%;
+}
+
+.portfolio .line {
+    position: absolute;
+    width: 69px;
+    height: 1px;
+    top: 297px;
+    left: 1205px;
+    object-fit: cover;
+}
+
+.portfolio .rectangle {
+    position: absolute;
+    width: 968px;
+    height: 280px;
+    top: 117px;
+    left: 239px;
+    background-color: #ffffffe6;
+    border: 0.6px solid;
+    border-color: #ba9f84;
+}
+
+.portfolio .rectangle-2 {
+    position: absolute;
+    width: 932px;
+    height: 246px;
+    top: 134px;
+    left: 257px;
+    border: 1px solid;
+    border-color: #ba9f84;
+}
+
+.portfolio .text-wrapper-8 {
+    position: absolute;
+    width: 733px;
+    top: 181px;
+    left: 358px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #ba9f84;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+
+.portfolio .text-wrapper-9 {
+    position: absolute;
+    width: 745px;
+    top: 253px;
+    left: 352px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-10 {
+    position: absolute;
+    top: 674px;
+    left: 559px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 3.20px;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-11 {
+    width: 733px;
+    top: 619px;
+    left: 363px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    letter-spacing: 5.60px;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.portfolio .overlap-2 {
+    position: absolute;
+    width: 1439px;
+    height: 719px;
+    top: 3779px;
+    left: 0;
+}
+
+.portfolio .rectangle-3 {
+    position: absolute;
+    width: 1439px;
+    height: 507px;
+    top: 82px;
+    left: 0;
+    background-color: #f5f5f5;
+}
+
+.portfolio .text-wrapper-12 {
+    position: absolute;
+    top: 157px;
+    left: 111px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #6b6b6b;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 3.20px;
+    line-height: normal;
+}
+
+.portfolio .text-wrapper-13 {
+    position: absolute;
+    width: 510px;
+    top: 240px;
+    left: 82px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 300;
+    color: #4e4e4e;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.portfolio .rectangle-4 {
+    position: absolute;
+    width: 273px;
+    height: 83px;
+    top: 423px;
+    left: 82px;
+    background-color: #e9e1d9;
+}
+
+.portfolio .text-wrapper-14 {
+    position: absolute;
+    top: 447px;
+    left: 131px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 500;
+    color: #454545;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.portfolio .author-bio-photo {
+    position: absolute;
+    width: 675px;
+    height: 719px;
+    top: 0;
+    left: 668px;
+    object-fit: cover;
+}
+
+.portfolio .text-wrapper-15 {
+    position: absolute;
+    top: 107px;
+    left: 83px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 5.60px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-3 {
+    position: absolute;
+    width: 379px;
+    height: 127px;
+    top: 1289px;
+    left: 973px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .text-wrapper-16 {
+    left: 134px;
+    position: absolute;
+    top: 23px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-17 {
+    position: absolute;
+    top: 66px;
+    left: 112px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 5.60px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-4 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 1289px;
+    left: 523px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .text-wrapper-18 {
+    position: absolute;
+    top: 23px;
+    left: 132px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-5 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 1289px;
+    left: 79px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .text-wrapper-19 {
+    position: absolute;
+    top: 23px;
+    left: 140px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .rectangle-5 {
+    position: absolute;
+    width: 367px;
+    height: 419px;
+    top: 870px;
+    left: 79px;
+}
+
+.portfolio .rectangle-6 {
+    position: absolute;
+    width: 364px;
+    height: 419px;
+    top: 869px;
+    left: 524px;
+}
+
+.portfolio .rectangle-7 {
+    position: absolute;
+    width: 379px;
+    height: 418px;
+    top: 870px;
+    left: 973px;
+}
+
+.portfolio .overlap-6 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 1950px;
+    left: 988px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .text-wrapper-20 {
+    position: absolute;
+    top: 23px;
+    left: 160px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-21 {
+    position: absolute;
+    top: 66px;
+    left: 125px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 5.60px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-7 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 1950px;
+    left: 538px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .text-wrapper-22 {
+    left: 139px;
+    position: absolute;
+    top: 23px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-8 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 1950px;
+    left: 94px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .text-wrapper-23 {
+    position: absolute;
+    top: 23px;
+    left: 133px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .rectangle-8 {
+    position: absolute;
+    width: 367px;
+    height: 419px;
+    top: 1531px;
+    left: 94px;
+}
+
+.portfolio .rectangle-9 {
+    position: absolute;
+    width: 364px;
+    height: 419px;
+    top: 1530px;
+    left: 539px;
+}
+
+.portfolio .rectangle-10 {
+    position: absolute;
+    width: 367px;
+    height: 418px;
+    top: 1531px;
+    left: 988px;
+}
+
+.portfolio .overlap-9 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 2622px;
+    left: 985px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .angela-diego {
+    left: 72px;
+    position: absolute;
+    top: 23px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-24 {
+    position: absolute;
+    top: 66px;
+    left: 140px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 500;
+    color: #ba9f84;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 5.60px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-10 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 2622px;
+    left: 535px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .daysi-jacob {
+    position: absolute;
+    top: 23px;
+    left: 82px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .overlap-11 {
+    position: absolute;
+    width: 367px;
+    height: 127px;
+    top: 2622px;
+    left: 91px;
+    background-color: #f5f5f5;
+}
+
+.portfolio .luis-karla {
+    left: 88px;
+    position: absolute;
+    top: 23px;
+    font-family: "Ephesis", Helvetica;
+    font-weight: 400;
+    color: #4b4b4b;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .rectangle-11 {
+    position: absolute;
+    width: 367px;
+    height: 419px;
+    top: 2203px;
+    left: 91px;
+}
+
+.portfolio .rectangle-12 {
+    position: absolute;
+    width: 364px;
+    height: 419px;
+    top: 2202px;
+    left: 536px;
+}
+
+.portfolio .rectangle-13 {
+    position: absolute;
+    width: 367px;
+    height: 418px;
+    top: 2203px;
+    left: 985px;
+}
+
+.portfolio .div-wrapper {
+    position: absolute;
+    width: 296px;
+    height: 82px;
+    top: 2835px;
+    left: 574px;
+    border: 1px solid;
+    border-color: #ba9f84;
+}
+
+.portfolio .text-wrapper-25 {
+    position: absolute;
+    top: 22px;
+    left: 50px;
+    font-family: "Cormorant Garamond", Helvetica;
+    font-weight: 500;
+    color: #454545;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.portfolio .rectangle-14 {
+    position: absolute;
+    width: 1440px;
+    height: 418px;
+    left: 0;
+}
+
+.portfolio .overlap-12 {
+    position: absolute;
+    width: 393px;
+    height: 83px;
+    top: 1px;
+    left: 461px;
+}
+
+.portfolio .text-wrapper-26 {
+    width: 131px;
+    top: 24px;
+    left: 0;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    letter-spacing: 1.10px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    line-height: normal;
+}
+
+.portfolio .logo-2 {
+    width: 264px;
+    height: 83px;
+    left: 129px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.portfolio .text-wrapper-27 {
+    width: 62px;
+    left: 881px;
+    position: absolute;
+    top: 25px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-28 {
+    width: 165px;
+    left: 1005px;
+    position: absolute;
+    top: 25px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-29 {
+    position: absolute;
+    width: 158px;
+    top: 27px;
+    left: 1220px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-30 {
+    width: 73px;
+    left: 31px;
+    position: absolute;
+    top: 25px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-31 {
+    position: absolute;
+    width: 124px;
+    top: 25px;
+    left: 145px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.portfolio .text-wrapper-32 {
+    width: 104px;
+    left: 316px;
+    position: absolute;
+    top: 25px;
+    font-family: "Playfair Display SC", Helvetica;
+    font-weight: 400;
+    color: #353535;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1.10px;
+    line-height: normal;
+    white-space: nowrap;
+}

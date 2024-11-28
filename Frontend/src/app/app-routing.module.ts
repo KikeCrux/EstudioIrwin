@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'registrar', component: RegistrarComponent },
   { path: 'calendario', component: CalendarioComponent },
+  { path: 'portafolio', component: PortafolioComponent },
   { path: '**', redirectTo: '' }
 ];
 

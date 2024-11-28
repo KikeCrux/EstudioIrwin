@@ -1222,12 +1222,20 @@
     line-height: normal;
 }
 
+.faq-section {
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 4784px;
+    width: 100%;
+}
+
 .faq-section h2 {
     font-family: "Cormorant Garamond", Helvetica;
     font-weight: 400;
     color: #2d2d2d;
     font-size: 32px;
     letter-spacing: 0;
+    text-align: center;
 }
 
 .faq-section h3 {
@@ -1236,6 +1244,7 @@
     color: #555555;
     font-size: 28px;
     letter-spacing: 0;
+    text-align: center;
 }
 
 .accordion-button {
@@ -1250,9 +1259,4 @@
     font-weight: 300;
     color: #454545;
     font-size: 18px;
-}
-
-.faq-section {
-    background-color: #f9f9f9;
-    padding: 60px 0;
 }
