@@ -1,296 +1,118 @@
-.login {
-    background-color: #fffefc;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+  }
+  
+  .login {
     width: 100%;
-}
-
-.login .overlap-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fffefc;
-    overflow: hidden;
-    width: 1440px;
-    height: 900px;
-}
-
-.login .overlap {
+  }
+  
+  .container-fluid {
+    height: 100%;
+  }
+  
+  .row {
+    height: 100%;
+  }
+  
+  .image-container {
     position: relative;
-    width: 10959px;
-    height: 1130px;
-    top: 14px;
-    left: 41px;
-}
-
-.login .group {
-    position: absolute;
-    width: 10959px;
-    height: 1106px;
-    top: 24px;
-    left: 0;
-}
-
-.login .overlap-group {
-    position: relative;
-    width: 1399px;
-    height: 862px;
-}
-
-.login .rectangle {
-    width: 737px;
-    height: 825px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.login .img {
-    width: 1399px;
-    height: 862px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.login .div {
-    position: absolute;
-    width: 1172px;
-    height: 119px;
-    top: 671px;
-    left: 69px;
-}
-
-.login .text-wrapper {
-    position: absolute;
-    width: 1168px;
-    top: 0;
-    left: 0;
-    font-family: "Poppins", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 37px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .muestra-tu-gran-d-a {
-    position: absolute;
-    width: 608px;
-    top: 61px;
-    left: 0;
-    font-family: "Cormorant Garamond", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .group-2 {
-    position: absolute;
-    width: 454px;
-    height: 611px;
-    top: 131px;
-    left: 848px;
-}
-
-.login .group-3 {
-    position: absolute;
-    width: 331px;
-    height: 107px;
-    top: 0;
-    left: 53px;
-}
-
-.login .overlap-group-wrapper {
-    position: absolute;
-    width: 333px;
-    height: 59px;
-    top: 48px;
-    left: 0;
-}
-
-.login .overlap-group-2 {
-    position: relative;
-    width: 329px;
-    height: 59px;
-    background-color: #f7ecdc;
-    border-radius: 33px;
-}
-
-.login .div-wrapper {
-    position: absolute;
-    width: 146px;
-    height: 40px;
-    top: 10px;
-    left: 13px;
-    background-color: #9e896a;
-    border-radius: 33px;
-}
-
-.login .text-wrapper-2 {
-    position: absolute;
-    top: 8px;
-    left: 51px;
-    font-family: "Poppins", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .text-wrapper-3 {
-    position: absolute;
-    top: 18px;
-    left: 190px;
-    font-family: "Poppins", Helvetica;
-    font-weight: 400;
-    color: #9e896a;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .text-wrapper-4 {
-    position: absolute;
-    top: 0;
-    left: 70px;
-    font-family: "Poppins", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .group-4 {
-    position: absolute;
-    width: 456px;
-    height: 301px;
-    top: 159px;
-    left: 0;
-}
-
-.login .group-5 {
-    position: absolute;
-    width: 439px;
-    height: 90px;
-    top: 91px;
-    left: 0;
-}
-
-.login .overlap-group-3 {
-    position: absolute;
-    width: 435px;
-    height: 54px;
-    top: 36px;
-    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajuste proporcional */
+  }
+  
+  .bg-white {
     background-color: #ffffff;
-    border-radius: 40px;
-    border: 1px solid;
-    border-color: #9e896a;
-}
-
-.login .text-wrapper-5 {
-    position: absolute;
-    top: 14px;
-    left: 30px;
-    font-family: "Poppins", Helvetica;
-    font-weight: 300;
-    color: #acacac;
-    font-size: 15px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .text-wrapper-6 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "Poppins", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .group-6 {
-    position: absolute;
-    width: 435px;
-    height: 90px;
-    top: 211px;
-    left: 0;
-}
-
-.login .overlap-2 {
-    position: relative;
-    width: 439px;
-    height: 90px;
-}
-
-.login .group-7 {
-    position: absolute;
-    width: 439px;
-    height: 90px;
-    top: 0;
-    left: 0;
-}
-
-.login .invisible {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    top: 54px;
-    left: 389px;
-}
-
-.login .p {
-    position: absolute;
-    width: 454px;
-    top: 0;
-    left: 0;
-    font-family: "Cormorant Garamond", Helvetica;
-    font-weight: 300;
-    color: #2d2d2d;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .group-8 {
-    position: absolute;
-    width: 234px;
-    height: 49px;
-    top: 562px;
-    left: 203px;
-}
-
-.login .overlap-3 {
-    position: relative;
-    width: 232px;
-    height: 49px;
+  }
+  
+  .form-wrapper {
+    max-width: 500px; /* Reducir tamaño máximo del formulario */
+    width: 85%; /* Mejor adaptabilidad */
+    padding: 30px; /* Reducir espacio interno */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra más ligera */
+  }
+  
+  .logo {
+    max-width: 140px; /* Reducir tamaño del logo */
+    height: auto;
+  }
+  
+  .welcome-text {
+    font-size: 1.8rem; /* Reducir tamaño del texto de bienvenida */
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .btn-toggle {
+    background-color: #f7ecdc;
+    border: none;
+    border-radius: 33px;
+    padding: 10px 25px; /* Botones más pequeños */
+    color: #9e896a;
+    font-size: 1rem; /* Texto más pequeño */
+    font-weight: 500;
+  }
+  
+  .btn-toggle.active {
     background-color: #9e896a;
-    border-radius: 36px;
-}
-
-.login .text-wrapper-7 {
-    position: absolute;
-    top: 13px;
-    left: 94px;
-    font-family: "Poppins", Helvetica;
-    font-weight: 400;
     color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.login .logo {
-    position: absolute;
-    width: 162px;
-    height: 78px;
-    top: 0;
-    left: 1237px;
-    object-fit: cover;
-}
+  }
+  
+  .form-label {
+    font-weight: 600;
+    color: #6c757d;
+    font-size: 1.1rem; /* Reducir tamaño de las etiquetas */
+  }
+  
+  .form-control {
+    border-radius: 40px;
+    padding: 12px 20px; /* Reducir espacio interno */
+    border: 1px solid #9e896a;
+    background-color: #ffffff;
+    font-size: 1rem; /* Texto más pequeño */
+  }
+  
+  .form-control:focus {
+    border-color: #9e896a;
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    background-color: #9e896a;
+    border: none;
+    color: #ffffff;
+    padding: 15px 25px; /* Botón más pequeño */
+    border-radius: 40px;
+    font-size: 1.2rem; /* Texto más pequeño */
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #826e57;
+  }
+  
+  .form-text {
+    font-size: 1rem; /* Reducir texto del párrafo */
+    color: #6c757d;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .icon-eye {
+    width: 20px; /* Reducir tamaño del ícono */
+    cursor: pointer;
+  }
