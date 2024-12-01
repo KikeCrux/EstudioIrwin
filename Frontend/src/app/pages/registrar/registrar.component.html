@@ -1,74 +1,65 @@
 <div class="login">
-    <div class="container-fluid">
-      <div class="row g-0 vh-100">
-        <!-- Imagen a la izquierda -->
-        <div class="col-lg-6 d-none d-lg-block px-0">
-          <div class="image-container">
-            <img
-              src="../../../assets/img-registrar/1.png"
-              alt="Imagen de fondo"
-              class="img-fluid"
-            />
-          </div>
+  <div class="container-fluid">
+    <div class="row g-0 vh-100">
+      <!-- Imagen a la izquierda -->
+      <div class="col-lg-6 d-none d-lg-block px-0">
+        <div class="image-container">
+          <img src="../../../assets/img-registrar/1.png" alt="Imagen de fondo" class="img-fluid" />
         </div>
-  
-        <!-- Formulario a la derecha -->
-        <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center bg-white">
-          <div class="form-wrapper">
-            <!-- Título principal -->
-            <div class="text-center mb-4">
-              <h5 class="welcome-text">Bienvenido a Estudio Irwin</h5>
-            </div>
-            <!-- Botones de Login y Registrarse -->
-            <div class="d-flex justify-content-center mb-3">
-              <button class="btn btn-toggle">Login</button>
-              <button class="btn btn-toggle active ms-2">Registrarte</button>
-            </div>
-            <!-- Formulario de registro -->
-            <form>
-              <div class="mb-4">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="name" placeholder="Ingresa tu Nombre" />
-              </div>
-              <div class="mb-4">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="Ingresa tu Correo Electrónico" />
-              </div>
-              <div class="mb-4">
-                <label for="password" class="form-label">Contraseña</label>
-                <div class="input-group">
-                  <input type="password" class="form-control" id="password" placeholder="Ingresa tu Contraseña" />
-                  <button class="btn btn-outline-secondary" type="button">
-                    <img
-                      src="https://c.animaapp.com/oBz8crwI/img/invisible-1.svg"
-                      alt="Mostrar/ocultar contraseña"
-                      class="icon-eye"
-                    />
-                  </button>
-                </div>
-              </div>
-              <div class="mb-4">
-                <label for="confirm-password" class="form-label">Confirmar Contraseña</label>
-                <div class="input-group">
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="confirm-password"
-                    placeholder="Ingresa tu Contraseña nuevamente"
-                  />
-                  <button class="btn btn-outline-secondary" type="button">
-                    <img
-                      src="https://c.animaapp.com/oBz8crwI/img/invisible-1.svg"
-                      alt="Mostrar/ocultar contraseña"
-                      class="icon-eye"
-                    />
-                  </button>
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary w-100">Registrar</button>
-            </form>
+      </div>
+
+      <!-- Formulario a la derecha -->
+      <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center bg-white">
+        <div class="form-wrapper">
+          <!-- Título principal -->
+          <div class="text-center mb-4">
+            <h5 class="welcome-text">Bienvenido a Estudio Irwin</h5>
           </div>
+          <!-- Botones de Login y Registrarse -->
+          <div class="d-flex justify-content-center mb-3">
+            <button class="btn btn-toggle" routerLink="/login">Login</button>
+            <button class="btn btn-toggle active ms-2">Registrarte</button>
+          </div>
+          <!-- Formulario de registro -->
+          <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <div class="mb-4">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" formControlName="name"
+                placeholder="Ingresa tu Nombre" />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" formControlName="email"
+                placeholder="Ingresa tu Correo Electrónico" />
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">Contraseña</label>
+              <div class="input-group">
+                <input [type]="showPassword ? 'text' : 'password'" class="form-control" id="password"
+                  formControlName="password" placeholder="Ingresa tu Contraseña" />
+                <button class="btn btn-outline-secondary" type="button" (click)="togglePasswordVisibility('password')">
+                  <img src="https://c.animaapp.com/oBz8crwI/img/invisible-1.svg" alt="Mostrar/ocultar contraseña"
+                    class="icon-eye" />
+                </button>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label for="confirm-password" class="form-label">Confirmar Contraseña</label>
+              <div class="input-group">
+                <input [type]="showConfirmPassword ? 'text' : 'password'" class="form-control" id="confirm-password"
+                  formControlName="confirmPassword" placeholder="Ingresa tu Contraseña nuevamente" />
+                <button class="btn btn-outline-secondary" type="button"
+                  (click)="togglePasswordVisibility('confirmPassword')">
+                  <img src="https://c.animaapp.com/oBz8crwI/img/invisible-1.svg" alt="Mostrar/ocultar contraseña"
+                    class="icon-eye" />
+                </button>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Registrar</button>
+          </form>
+
         </div>
       </div>
     </div>
   </div>
+</div>

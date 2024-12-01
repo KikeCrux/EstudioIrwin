@@ -1,58 +1,54 @@
 <div class="login">
-    <div class="container-fluid">
-      <div class="row g-0 vh-100">
-        <!-- Imagen a la izquierda -->
-        <div class="col-lg-6 d-none d-lg-block px-0">
-          <div class="image-container">
-            <img
-              src="../../../assets/img-login/imagen.png"
-              alt="Imagen de Estudio Irwin"
-              class="img-fluid"
-            />
-          </div>
+  <div class="container-fluid">
+    <div class="row g-0 vh-100">
+      <!-- Imagen a la izquierda -->
+      <div class="col-lg-6 d-none d-lg-block px-0">
+        <div class="image-container">
+          <img src="../../../assets/img-login/imagen.png" alt="Imagen de Estudio Irwin" class="img-fluid" />
         </div>
-  
-        <!-- Formulario a la derecha -->
-        <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center bg-white">
-          <div class="form-wrapper">
-            <!-- Título principal -->
-            <div class="text-center mb-4">
-              <h5 class="welcome-text">Bienvenido a Estudio Irwin</h5>
-            </div>
-            <!-- Botones de Login y Registrarse -->
-            <div class="d-flex justify-content-center mb-3">
-              <button class="btn btn-toggle me-2 active">Login</button>
-              <button class="btn btn-toggle">Registrarte</button>
-            </div>
-            <!-- Texto introductorio -->
-            <div class="intro-text text-center mb-4">
-              <p>
-                “En Estudio Irwin, capturamos tus momentos más importantes con pasión y creatividad. Cada imagen cuenta
-                una historia única.”
-              </p>
-            </div>
-            <form>
-              <div class="mb-4">
-                <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="Ingresa tu Correo Electrónico" />
-              </div>
-              <div class="mb-4">
-                <label for="password" class="form-label">Contraseña</label>
-                <div class="input-group">
-                  <input type="password" class="form-control" id="password" placeholder="Ingresa tu Contraseña" />
-                  <button class="btn btn-outline-secondary" type="button">
-                    <img
-                      src="https://c.animaapp.com/oBz8crwI/img/invisible-1.svg"
-                      alt="Mostrar/ocultar contraseña"
-                      class="icon-eye"
-                    />
-                  </button>
-                </div>
-              </div>
-              <button type="submit" class="btn btn-primary w-100">Iniciar</button>
-            </form>
+      </div>
+
+      <!-- Formulario a la derecha -->
+      <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center bg-white">
+        <div class="form-wrapper">
+          <!-- Título principal -->
+          <div class="text-center mb-4">
+            <h5 class="welcome-text">Bienvenido a Estudio Irwin</h5>
           </div>
+          <!-- Botones de Login y Registrarse -->
+          <div class="d-flex justify-content-center mb-3">
+            <button class="btn btn-toggle me-2 active">Login</button>
+            <button class="btn btn-toggle" routerLink="/registrar">Registrarte</button>
+          </div>
+          <!-- Texto introductorio -->
+          <div class="intro-text text-center mb-4">
+            <p>
+              “En Estudio Irwin, capturamos tus momentos más importantes con pasión y creatividad. Cada imagen cuenta
+              una historia única.”
+            </p>
+          </div>
+          <!-- Formulario de login -->
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="mb-4">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" formControlName="email"
+                placeholder="Ingresa tu Correo Electrónico" />
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">Contraseña</label>
+              <div class="input-group">
+                <input [type]="showPassword ? 'text' : 'password'" class="form-control" id="password"
+                  formControlName="password" placeholder="Ingresa tu Contraseña" />
+                <button class="btn btn-outline-secondary" type="button" (click)="togglePasswordVisibility()">
+                  <img src="https://c.animaapp.com/oBz8crwI/img/invisible-1.svg" alt="Mostrar/ocultar contraseña"
+                    class="icon-eye" />
+                </button>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100" [disabled]="loginForm.invalid">Iniciar</button>
+          </form>
         </div>
       </div>
     </div>
   </div>
+</div>

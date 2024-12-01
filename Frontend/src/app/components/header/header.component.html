@@ -11,6 +11,7 @@
     <div class="navbar-right">
         <a class="nav-link" routerLink="/blog">Blog</a>
         <a class="nav-link" routerLink="/contactanos">Contáctanos</a>
-        <a class="nav-link" routerLink="/login">Inicia sesión</a>
+        <a class="nav-link" *ngIf="!isLoggedIn" routerLink="/login">Inicia sesión</a>
+        <a class="nav-link" *ngIf="isLoggedIn" (click)="logout()">Cerrar sesión</a>
     </div>
 </nav>
