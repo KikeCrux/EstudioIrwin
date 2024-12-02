@@ -1,76 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.5.5/css/bootstrap.min.css">
+    <style>
+        /* Estilo del footer */
+        .footer {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 30px 0;
+            font-family: "Cormorant Garamond", serif;
+        }
+
+        .footer .menu {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .footer .menu span {
+            margin: 0 15px;
+            color: #2d2d2d;
+            cursor: pointer;
+        }
+
+        .footer .menu span:hover {
+            color: #ba9f84;
+            text-decoration: underline;
+        }
+
+        .footer .logo {
+            max-width: 120px;
+            margin: 20px auto;
+        }
+
+        .footer .text {
+            font-size: 18px;
+            color: #484848;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .footer .social-icons {
+            margin-bottom: 20px;
+        }
+
+        .footer .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+            color: #ba9f84;
+        }
+
+        .footer .social-icons a:hover {
+            color: #2d2d2d;
+        }
+
+        .footer .copyright {
+            font-size: 16px;
+            color: #2d2d2d;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Footer Estilo</title>
 </head>
 
 <body>
     <div class="contact">
         <div class="div">
-            <div class="overlap">
-                <img class="rectangle" src="../../../assets/img-contactanos/Rectangle 467.png" />
-                <div class="rectangle-2"></div>
-                <div class="text-wrapper">EMAIL</div>
-                <div class="text-wrapper-2">DIRECCIÓN</div>
-                <div class="text-wrapper-3">CONTACT</div>
-                <img class="clarity-mobile-solid" src="../../../assets/img-contactanos/clarity_mobile-solid.svg" />
-                <img class="iconamoon-email-thin" src="../../../assets/img-contactanos/iconamoon_email-thin.svg" />
-                <img class="ei-location" src="../../../assets/img-contactanos/ei_location.svg" />
-                <div class="text-wrapper-4">4651281896</div>
-                <div class="text-wrapper-5">irwinestudio2_gmail.com</div>
-                <p class="callejon-romo">Callejon Romo #12o nte.<br />Barrio de Gpe, Rincón de Romos. Ags</p>
-            </div>
+            <!-- Imagen superior -->
             <div class="overlap-group">
-                <img class="formkit-email" src="../../../assets/img-contactanos/formkit_email.svg" />
-                <img class="img" src="../../../assets/img-contactanos/Rectangle 512.png" />
+                <img class="img" src="../../../assets/img-contactanos/Rectangle 512.png" alt="Imagen adicional" />
             </div>
+
+            <!-- Título principal -->
             <p class="ponte-en-contacto">PONTE EN CONTACTO CON NOSOTROS</p>
             <div class="text-wrapper-6">CONTACTANOS</div>
+
+            <!-- Formulario e imagen del pastel -->
             <div class="overlap-2">
-                <div class="text-wrapper-7">Telefono</div>
-                <div class="rectangle-3"></div>
-                <div class="text-wrapper-8">Tu nombre</div>
-                <div class="rectangle-4"></div>
-                <p class="p">Cuéntame sobre ti / plan del evento</p>
-                <div class="rectangle-5"></div>
-                <div class="text-wrapper-9">Dia del Evento</div>
-                <div class="rectangle-6"></div>
-                <img class="rectangle-7" src="../../../assets/img-contactanos/Rectangle 501.png" />
-                <div class="div-wrapper">
-                    <div class="text-wrapper-10">Enviar</div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Formulario -->
+                        <div class="col-md-6" style="padding: 30px;">
+                            <form>
+                                <div class="form-group">
+                                    <label for="nombre">Tu nombre</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono">Teléfono</label>
+                                    <input type="text" class="form-control" id="telefono" placeholder="Escribe tu teléfono" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="fechaEvento">Día del Evento</label>
+                                    <input type="date" class="form-control" id="fechaEvento" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="descripcionEvento">Cuéntame sobre ti / plan del evento</label>
+                                    <textarea class="form-control" id="descripcionEvento" rows="4" placeholder="Describe tu evento"></textarea>
+                                </div>
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+
+                        <!-- Imagen del pastel -->
+                        <div class="col-md-6 text-center">
+                            <img src="../../../assets/img-contactanos/Rectangle 501.png" alt="Pastel" />
+                        </div>
+                    </div>
                 </div>
             </div>
-            <p class="nunca-sabr-s-el">NUNCA SABRÁS EL VALOR DE UN MOMENTO HASTA QUE SE CONVIERTA EN UN RECUERDO.</p>
-            <div class="text-wrapper-11">Consulta Ahora</div>
-            <div class="overlap-3">
-                <div class="text-wrapper-12">Inicio</div>
-                <div class="text-wrapper-13">acerca de</div>
-                <div class="text-wrapper-14">PORTFOLIO</div>
-                <div class="text-wrapper-15">BLOG</div>
-                <div class="text-wrapper-16">servicio</div>
-                <div class="text-wrapper-17">contactanos</div>
-                <div class="overlap-4">
-                    <p class="text-wrapper-18">
-                        “En Estudio Irwin, capturamos tus momentos más importantes con pasión y creatividad. Cada imagen
-                        cuenta
-                        una historia única.”
-                    </p>
-                    <p class="text-wrapper-18">
-                        “En Estudio Irwin, capturamos tus momentos más importantes con pasión y creatividad. Cada imagen
-                        cuenta
-                        una historia única.”
-                    </p>
+
+            <!-- Frase inspiradora -->
+            <div class="nunca-sabr-s-el">
+                <h2>Consulta Ahora</h2>
+                <p>NUNCA SABRÁS EL VALOR DE UN MOMENTO HASTA QUE SE CONVIERTA EN UN RECUERDO.</p>
+            </div>
+
+            <!-- Imagen Final -->
+            <div class="imagen-final">
+                <img src="../../../assets/img-contactanos/info.png" alt="Imagen final decorativa">
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <!-- Menú -->
+        
+
+                <!-- Logo -->
+                <img class="logo" src="../../../assets/img-contactanos/Logo-2.png" alt="Logo">
+
+                <!-- Texto -->
+                <div class="text">
+                    “En Estudio Irwin, capturamos tus momentos más importantes con pasión y creatividad. Cada imagen cuenta una historia única.”
                 </div>
-                <img class="vector" src="https://c.animaapp.com/coI2Gfuu/img/vector.svg" />
-                <img class="vector-2" src="https://c.animaapp.com/coI2Gfuu/img/vector-1.svg" />
-                <img class="vector-3" src="https://c.animaapp.com/coI2Gfuu/img/vector-2.svg" />
-                <img class="vector-4" src="https://c.animaapp.com/coI2Gfuu/img/vector-3.svg" />
-                <p class="text-wrapper-19">Copyright 2024 Todos los derechos reservados</p>
-                <img class="logo" src="../../../assets/img-contactanos/Logo-2.png" />
+
+                <!-- Redes sociales -->
+                <div class="social-icons">
+                    <img class="vector" src="https://c.animaapp.com/EFj0bemq/img/vector.svg" />
+                    <img class="vector-2" src="https://c.animaapp.com/EFj0bemq/img/vector-1.svg" />
+                    <img class="vector-3" src="https://c.animaapp.com/EFj0bemq/img/vector-2.svg" />
+                    <img class="vector-4" src="https://c.animaapp.com/EFj0bemq/img/vector-3.svg" />
+                </div>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    &copy; 2024 Todos los derechos reservados
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
