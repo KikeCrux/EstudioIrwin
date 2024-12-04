@@ -9,6 +9,8 @@ import { CalendarioComponent } from './calendario/calendario.component';
 import { TransaccionesComponent } from './transacciones/transacciones.component';
 import { BuscadorClienteComponent } from '../components/buscador-cliente/buscador-cliente.component';
 import { WidgetsComponent } from './widgets/widgets.component';
+import { AgendarComponent } from './agendar/agendar.component';
+import { AgConfirmacionComponent } from './ag-confirmacion/ag-confirmacion.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { WidgetsComponent } from './widgets/widgets.component';
     CalendarioComponent,
     TransaccionesComponent,
     BuscadorClienteComponent,
-    WidgetsComponent
+    WidgetsComponent,
+    AgendarComponent,
+    AgConfirmacionComponent
   ],
   imports: [
     CommonModule,

@@ -11,6 +11,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegistrarComponent } from './pages/registrar/registrar.component';
 import { CalendarioComponent } from './pages/calendario/calendario.component';
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'acercaDe', component: AcercaDeComponent },
@@ -35,6 +36,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {
-
-}
+export class AppRoutingModule { }

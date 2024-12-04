@@ -1,0 +1,93 @@
+/* Fuente y color general */
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */
+    background-color: #f4f4f4; /* Fondo suave */
+    color: #333; /* Texto oscuro */
+}
+
+/* Estilo del formulario */
+.container {
+    max-width: 900px;
+    padding: 0 15px;
+    margin-top: 50px; /* Ajuste para mover el formulario hacia abajo */
+}
+
+/* Estilos de las etiquetas y campos */
+.form-label {
+    font-weight: 600; /* Negrita */
+    color: #9E896A; /* Color elegante */
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px 20px; /* Espaciado interno */
+    font-size: 1.1rem; /* Tamaño de fuente ligeramente mayor */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Cambio de color y sombra cuando se enfoca el input */
+.form-control:focus {
+    border-color: #9E896A; /* Color de borde cuando está enfocado */
+    box-shadow: 0 0 10px rgba(158, 137, 106, 0.3); /* Sombra más fuerte */
+    outline: none; /* Quitar el borde por defecto */
+}
+
+/* Estilo para los inputs tipo 'date' y 'email' */
+input[type="date"], input[type="email"], input[type="tel"] {
+    -webkit-appearance: none; /* Elimina el estilo por defecto */
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Estilo para el área de texto */
+textarea.form-control {
+    resize: none; /* Desactiva el redimensionamiento manual */
+    height: 150px; /* Altura definida */
+    font-size: 1.1rem; /* Aumenta el tamaño de fuente */
+    padding: 15px; /* Aumenta el espacio interno */
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+/* Sombra en el textarea cuando está enfocado */
+textarea.form-control:focus {
+    border-color: #9E896A;
+    box-shadow: 0 0 10px rgba(158, 137, 106, 0.3);
+}
+
+/* Estilo para el botón de enviar */
+.btn-primary {
+    background-color: #9E896A;
+    border-color: #9E896A;
+    padding: 15px;
+    font-size: 1.2rem; /* Aumenta el tamaño de fuente del botón */
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover en el botón */
+.btn-primary:hover {
+    background-color: #7c6b4d;
+    border-color: #7c6b4d;
+    transform: translateY(-2px); /* Da un pequeño efecto de "elevación" */
+}
+
+/* Estilos de los inputs en estado 'deshabilitado' */
+.form-control[disabled], .btn-primary[disabled] {
+    background-color: #f1f1f1;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Estilo para la imagen de la derecha */
+.col-md-6 img {
+    border-radius: 10px;
+}
