@@ -1,123 +1,109 @@
-/* Fuente predeterminada */
-body {
-  font-family: 'Garamond', serif; /* Elegante y clásica */
-}
-
-/* Contenedor principal */
-.container-fluid {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* Se eliminó el fondo #B58B61 */
-}
-
-/* Contenedor de la imagen de encabezado */
-.header-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-/* Estilo para la tarjeta de calendario con el fondo BBA085 */
+/* Contenedor principal (calendario) más ancho */
 .calendar-container {
   background-color: #BBA085; /* Fondo detrás del calendario */
-  padding: 20px;
-  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Más espacio interno */
+  border-radius: 12px; /* Bordes más redondeados */
   margin-top: 20px;
+  max-width: 700px; /* Aumento del ancho máximo del contenedor */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
+/* Card más grande */
 .custom-card {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra más grande */
   background-color: white;
+  max-width: 100%; /* Asegura que la card se ajuste al contenedor */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.card-header {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e0e0e0;
-  font-size: 24px;
-  font-weight: bold;
-}
-
+/* Tabla del calendario con celdas más grandes */
 .table {
   border-collapse: separate;
-  border-spacing: 8px; /* Espaciado entre celdas */
+  border-spacing: 8px; /* Reduce el espacio entre celdas */
+  width: 100%;
 }
 
-.table th, .table td {
-  padding: 15px;
-  font-size: 18px;
+.table td, .table th {
+  font-size: 14px; /* Tamaño de fuente ligeramente más pequeño */
+  padding: 10px; /* Menos espacio en las celdas */
+  width: 40px; /* Ajusta el ancho de las celdas */
+  height: 40px; /* Ajusta la altura de las celdas */
+  line-height: 40px; /* Centrado del texto */
 }
 
 .table td.bg-brown {
   background-color: #6f4f1f;
   color: white;
-  border-radius: 50%;
+  border-radius:0%;
   font-weight: bold;
 }
 
-.table td.text-muted {
-  color: #d3d3d3;
-}
-
-.table td:hover {
-  background-color: #f7f7f7;
-  cursor: pointer;
-}
-
-/* Botón */
-.btn-brown {
+/* Botón de Agendar cita más grande */
+.btn-schedule {
   background-color: #6f4f1f;
-  border-color: #6f4f1f;
+  border: none;
   color: white;
   font-weight: bold;
-  padding: 12px 0;
-  font-size: 18px;
-  border-radius: 8px;
+  font-size: 18px; /* Aumento del tamaño de la fuente */
+  padding: 14px 30px; /* Ajuste de padding más grande */
+  border-radius: 30px; /* Bordes más redondeados */
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 100%; /* El botón ocupará todo el ancho */
+  max-width: 300px; /* Limita el tamaño máximo del botón */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.btn-brown:hover {
+.btn-schedule:hover {
   background-color: #5a3e14;
-  border-color: #5a3e14;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* Imagen en el footer */
+.btn-schedule:active {
+  transform: translateY(2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn-schedule:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+/* Contenedor para centrar el botón de Agendar Cita */
+.card-body {
+  display: flex;
+  flex-direction: column;  /* Asegura que los elementos se apilen verticalmente */
+  align-items: center;     /* Centra el contenido horizontalmente */
+  justify-content: center; /* Centra el contenido verticalmente */
+}
+
+/* Estilo del botón de Agendar Cita */
+.btn-schedule {
+  background-color: #6f4f1f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: auto;
+  max-width: 200px; /* Ajuste máximo para el tamaño */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 .footer-image {
-  margin-top: 100px; /* Ajustado para que la imagen esté más abajo */
-}
-
-.footer-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .table th, .table td {
-    font-size: 14px;
-  }
-
-  .table td.bg-brown {
-    font-size: 16px;
-  }
-
-  .btn-brown {
-    font-size: 16px;
-    padding: 10px 0;
-  }
-}
-  /* Imagen en el footer */
-.footer-image {
-  margin-top: 650px; /* Aumenta aún más el margen superior para moverla más abajo */
-}
-
-.footer-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  margin-top: 50px; /* Ajusta este valor para moverlo más abajo */
 }

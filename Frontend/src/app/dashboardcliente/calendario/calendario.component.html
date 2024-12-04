@@ -1,3 +1,6 @@
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
 <div class="container-fluid">
   <!-- Contenedor de la imagen de encabezado -->
   <div class="header-image">
@@ -8,11 +11,23 @@
   <div class="calendar-container">
     <div class="card shadow-lg custom-card">
       <div class="card-header text-center">
-        <h4>{{ month }} {{ year }}</h4>
+        <h4>{{ months[selectedMonth] }} {{ year }}</h4>
         <div class="text-muted">Agenda tu cita para este mes</div>
       </div>
       <div class="card-body">
-        <table class="table table-bordered text-center">
+        <div class="d-flex justify-content-between align-items-center">
+          <!-- Flecha izquierda para el mes anterior -->
+          <button class="btn btn-brown" (click)="changeMonth(-1)">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <!-- Flecha derecha para el mes siguiente -->
+          <button class="btn btn-brown" (click)="changeMonth(1)">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- Tabla del calendario -->
+        <table class="table table-bordered text-center mt-3">
           <thead>
             <tr>
               <th *ngFor="let day of daysOfWeek">{{ day }}</th>
@@ -24,12 +39,14 @@
                 'bg-brown text-white': day === currentDay,
                 'text-muted': !day
               }">
-                <span *ngIf="day">{{ day }}</span>
+                <span *ngIf="day" (click)="selectDay(day)">{{ day }}</span>
               </td>
             </tr>
           </tbody>
         </table>
-        <button class="btn btn-brown w-100 mt-3">Agendar cita</button>
+
+        <!-- Botón de Agendar Cita dentro del contenedor -->
+        <button class="btn-schedule w-100 mt-3">Agendar cita</button>
       </div>
     </div>
   </div>
@@ -39,4 +56,3 @@
 <div class="footer-image">
   <img src="../../../assets/img-calendario/Rectangle 512.png" alt="Footer Image" class="img-fluid w-100">
 </div>
-
