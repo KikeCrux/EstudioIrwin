@@ -8,7 +8,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 export class UserService {
   private readonly LOGGED_IN_KEY = 'isLoggedIn';
   private loggedInSubject = new BehaviorSubject<boolean>(this.getLoggedIn());
-  private apiUrl = 'http://localhost:5000/api/user';
+  private apiUrl = 'http://localhost:5001/api/user';
 
   constructor(private http: HttpClient) { }
 

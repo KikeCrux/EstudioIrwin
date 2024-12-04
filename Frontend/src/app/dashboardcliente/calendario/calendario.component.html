@@ -1,1 +1,41 @@
-<p>calendario works!</p>
+<div class="container-fluid">
+  <!-- Contenedor de la imagen de encabezado -->
+  <div class="header-image">
+    <img src="../../../assets/img-calendario/arriba.png" alt="Header Image" class="img-fluid w-100">
+  </div>
+
+  <!-- Contenedor del calendario -->
+  <div class="calendar-container">
+    <div class="card shadow-lg custom-card">
+      <div class="card-header text-center">
+        <h4>{{ month }} {{ year }}</h4>
+        <div class="text-muted">Agenda tu cita para este mes</div>
+      </div>
+      <div class="card-body">
+        <table class="table table-bordered text-center">
+          <thead>
+            <tr>
+              <th *ngFor="let day of daysOfWeek">{{ day }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let week of weeks">
+              <td *ngFor="let day of week" [ngClass]="{
+                'bg-brown text-white': day === currentDay,
+                'text-muted': !day
+              }">
+                <span *ngIf="day">{{ day }}</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="btn btn-brown w-100 mt-3">Agendar cita</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Imagen de footer -->
+<div class="footer-image">
+  <img src="../../../assets/img-calendario/Rectangle 512.png" alt="Footer Image" class="img-fluid w-100">
+</div>
