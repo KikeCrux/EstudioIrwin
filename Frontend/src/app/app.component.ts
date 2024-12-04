@@ -8,11 +8,15 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'EstudioIrwin';
-  constructor(private router: Router) {
+
+  constructor(public router: Router) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        window.scrollTo(0, 0);
+        if (!event.url.startsWith('/dashboard')) {
+          window.scrollTo(0, 0);
+        }
       }
     });
   }
+
 }

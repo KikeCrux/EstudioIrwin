@@ -27,7 +27,7 @@ export class LoginComponent {
         response => {
           console.log('Usuario autenticado con éxito');
           this.userService.setLoggedIn(true);
-          this.router.navigate(['/home']);
+          this.router.navigate(['/dashboardC']);
         },
         error => {
           console.error('Error al autenticar el usuario');

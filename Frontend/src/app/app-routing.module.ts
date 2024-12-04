@@ -21,9 +21,15 @@ const routes: Routes = [
   { path: 'registrar', component: RegistrarComponent },
   { path: 'calendario', component: CalendarioComponent },
   { path: 'portafolio', component: PortafolioComponent },
+  {
+    path: 'dashboardC',
+    loadChildren: () =>
+      import('./dashboardcliente/dashboardcliente.module').then(
+        (m) => m.DashboardclienteModule
+      )
+  },
   { path: '**', redirectTo: '' }
 ];
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
