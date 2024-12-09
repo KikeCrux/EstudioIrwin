@@ -1,1 +1,69 @@
-<p>transacciones works!</p>
+<div class="container">
+    <div class="row">
+  
+      <!-- Sección Izquierda: Formulario -->
+      <div class="col-md-6">
+        <h3 class="text-muted">Metodo de pago</h3>
+        <!-- Progreso -->
+        <div class="progress">
+          <div class="progress-bar" style="width: 50%;"></div>
+        </div>
+        <div class="d-flex justify-content-between mt-2 mb-4">
+          <span>Shipping</span>
+          <span>Billing</span>
+          <span>Confirmation</span>
+        </div>
+  
+        <!-- Método de pago con Imágenes -->
+        <h4>Payment Method</h4>
+        <div class="form-group d-flex">
+          <label class="radio-container">
+            <input type="radio" name="payment" checked>
+            <img src="../../../assets/img-transaccion/credit-card 1.png" alt="Credit Card">
+          </label>
+          <label class="radio-container">
+            <input type="radio" name="payment">
+            <img src="../../../assets/img-transaccion/image 1.png" alt="PayPal">
+          </label>
+        </div>
+  
+        <!-- Detalles del Pago -->
+        <h4>Payment Details</h4>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Name on Card">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Card Number">
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Expiration">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="CVV">
+            </div>
+          </div>
+          <small>By clicking "Confirm Payment" I agree to the companies term of services</small>
+        </form>
+  
+        <!-- Botones -->
+        <div class="mt-4">
+          <button class="btn btn-default">Back</button>
+          <button class="btn btn-primary" style="background-color: #B58B61; color: white;">Confirm Payment: $15,500</button>
+        </div>
+      </div>
+  
+      <!-- Sección Derecha: Resumen Evento -->
+      <div class="col-md-6">
+        <div class="p-4" style="background-color: #B58B61;">
+          <h4 class="text-center text-uppercase text-dark fecha-evento">Fecha Evento</h4>
+          <h2 class="text-center precio-evento">$15,500</h2>
+          <img src="../../../assets/img-transaccion/Captura de pantalla 2024-12-08 a la(s) 9.01.54 p.m..png"
+            class="img-responsive" alt="Evento" style="border-radius: 8px;">
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  

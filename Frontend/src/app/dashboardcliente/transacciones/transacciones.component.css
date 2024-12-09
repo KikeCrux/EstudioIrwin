@@ -1,0 +1,86 @@
+/* Espacio superior para todo el contenedor del formulario */
+.formulario-container {
+    margin-top: 40px; /* Ajusta el valor para mayor separación */
+    padding-top: 10px; /* Opcional: espacio interior adicional */
+}
+
+/* Espaciado adicional entre elementos del formulario */
+.form-group {
+    margin-bottom: 25px; /* Espacio entre campos del formulario */
+}
+
+/* Margen adicional para separar los métodos de pago */
+.radio-container {
+    margin-bottom: 20px;
+    display: flex; /* Para mejor alineación */
+    align-items: center; /* Centrado vertical */
+}
+
+/* Botones: Espacio superior */
+.mt-4 {
+    margin-top: 30px; /* Separación entre formulario y botones */
+}
+
+/* Mejorar texto pequeño */
+small {
+    font-size: 12px;
+    color: #777;
+    display: block;
+    margin-top: 10px;
+    line-height: 1.5; /* Mejorar legibilidad */
+}
+
+/* Personalización adicional para inputs */
+.form-control {
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc;
+    padding: 8px 12px; /* Espaciado interior */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Botones personalizados */
+.btn-primary {
+    background-color: #B58B61;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #9C744F; /* Oscurecer ligeramente al pasar el cursor */
+}
+
+/* Cambia el color de la barra de progreso */
+.progress-bar {
+    background-color: #B58B61 !important; /* Color café */
+}
+
+/* Ajustar la posición de la imagen */
+.image-container {
+    margin-top: 20px; /* Mueve la imagen hacia abajo */
+    margin-left: 10px; /* Mueve la imagen hacia la derecha */
+    position: relative; /* Posicionamiento relativo */
+}
+
+/* Opcional: Ajustar la imagen misma si es necesario */
+.image-container img {
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Cambiar fuente para la sección de fecha y precio */
+.fecha-evento {
+    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+    font-weight: 600; /* Grosor de la fuente */
+    font-size: 18px; /* Tamaño ajustado */
+    letter-spacing: 1px; /* Espaciado entre letras */
+  }
+  
+  .precio-evento {
+    font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+    font-weight: 400; /* Grosor regular */
+    font-size: 28px; /* Tamaño más grande */
+  }
+  
