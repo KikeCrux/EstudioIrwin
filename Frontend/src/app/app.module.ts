@@ -17,6 +17,8 @@ import { RegistrarComponent } from './pages/registrar/registrar.component';
 import { CalendarioComponent } from './pages/calendario/calendario.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { BuscadorAdminComponent } from './components/buscador-admin/buscador-admin.component';
+import { SidebarAdminComponent } from './components/sidebar-admin/sidebar-admin.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,7 @@ import { HttpClientModule } from '@angular/common/http';
     ContactanosComponent,
     LoginComponent,
     RegistrarComponent,
-    CalendarioComponent
+    CalendarioComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,50 @@
+.bg-custom {
+    background-color: #d7c4b1;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: calc(100% - 250px);
+    z-index: 1000;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.search-bar input {
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+}
+
+.btn-custom {
+    background-color: #a47c5b;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #8a674a;
+}
+
+.notification-icon,
+.options-icon {
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.notification-icon:hover,
+.options-icon:hover {
+    color: #a47c5b;
+}

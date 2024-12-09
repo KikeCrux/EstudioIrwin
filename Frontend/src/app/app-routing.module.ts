@@ -29,6 +29,14 @@ const routes: Routes = [
         (m) => m.DashboardclienteModule
       )
   },
+  {
+    path: 'dashboardA',
+    loadChildren: () =>
+      import('./dashboardadmin/dashboardadmin.module').then(
+        (m) => m.DashboardadminModule
+      )
+  },
+
   { path: '**', redirectTo: '' }
 ];
 

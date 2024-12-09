@@ -1,0 +1,36 @@
+<nav class="sidebar">
+    <div class="sidebar-header">
+        <img src="../../../assets/img-acercade/Logo.png" alt="Logo" class="sidebar-logo">
+    </div>
+    <ul class="sidebar-menu">
+        <li class="sidebar-item" routerLink="/dashboardA/home" routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">
+            <i class="icon fa fa-home"></i>
+            <span>Inicio</span>
+        </li>
+        <li class="sidebar-item" routerLink="/dashboardA/citas" routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">
+            <i class="icon fa fa-image"></i>
+            <span>Galería</span>
+        </li>
+        <li class="sidebar-item" routerLink="/dashboardA/pagos" routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">
+            <i class="icon fa fa-calendar"></i>
+            <span>Calendario</span>
+        </li>
+        <li class="sidebar-item" routerLink="/dashboardA/servidores" routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">
+            <i class="icon fa fa-credit-card"></i>
+            <span>Transacciones</span>
+        </li>
+        <li class="sidebar-item" routerLink="/dashboardA/usuarios" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">
+        <i class="icon fa fa-credit-card"></i>
+        <span>Transacciones</span>
+    </li>
+        <li class="sidebar-item" (click)="logout()">
+            <i class="icon fa fa-sign-out"></i>
+            <span>Cerrar Sesión</span>
+        </li>
+    </ul>
+</nav>
