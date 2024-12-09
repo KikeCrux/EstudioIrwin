@@ -10,21 +10,21 @@ import { DashboardadminLayoutComponent } from './dashboardadmin-layout/dashboard
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent, // Layout principal
+    component: DashboardadminLayoutComponent, // Layout principal
     children: [
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: DashboardadminLayoutComponent },
+      { path: '', redirectTo: 'home', pathMatch: 'full' }, // Redirección inicial
+      { path: 'home', component: HomeComponent },         // Ruta para Home
       { path: 'citas', component: CitasComponent },
       { path: 'pagos', component: PagosComponent },
       { path: 'servidores', component: ServidoresComponent },
       { path: 'usuarios', component: UsuariosComponent },
     ]
   },
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: '' } // Ruta comodín
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class DashboardadminRoutingModule { }
+export class DashboardadminRoutingModule {}

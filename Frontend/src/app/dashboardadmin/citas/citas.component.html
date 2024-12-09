@@ -1,1 +1,45 @@
-<p>citas works!</p>
+<div class="container mt-5 mb-5">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- Contenido principal -->
+<div class="dashboard-content">
+    <router-outlet></router-outlet> <!-- Aquí se cargarán los paneles -->
+  </div>
+
+
+    <!-- Título -->
+    <h2>📅 Citas del Administrador</h2>
+  
+    <!-- Fondo estilizado de la tabla -->
+    <div class="table-container">
+      <table class="table table-hover text-center align-middle">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Cliente</th>
+            <th>Fecha</th>
+            <th>Descripción</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Iterar sobre citas -->
+          <tr *ngFor="let cita of citas; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td class="fw-bold">{{ cita.cliente }}</td>
+            <td>{{ cita.fecha }}</td>
+            <td>{{ cita.descripcion }}</td>
+            <td>
+              <span class="badge" [ngClass]="{
+                'bg-pending': cita.estado === 'Pendiente',
+                'bg-completed': cita.estado === 'Completada',
+                'bg-cancelled': cita.estado === 'Cancelada'
+              }">
+                {{ cita.estado }}
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

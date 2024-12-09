@@ -1,1 +1,13 @@
-<p>dashboardadmin-layout works!</p>
+<div class="dashboard-container">
+    <!-- Buscador Admin -->
+    <app-buscador-admin></app-buscador-admin> <!-- Aquí se carga el buscador -->
+  
+    <!-- Sidebar -->
+    <app-sidebar-admin></app-sidebar-admin>
+  
+    <!-- Contenido dinámico -->
+    <div class="dashboard-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  

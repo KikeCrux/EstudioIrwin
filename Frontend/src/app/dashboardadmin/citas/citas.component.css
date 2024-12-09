@@ -1,0 +1,116 @@
+/* Fondo general de la página con degradado */
+body {
+    background: linear-gradient(to bottom, #fdfcf8, #f4e9df);
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/paper.png');
+    font-family: 'Lora', serif; /* Fuente elegante */
+    color: #5A4433;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Contenedor principal estilizado */
+.table-container {
+    background: rgba(255, 255, 255, 0.95); /* Fondo semi-transparente */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 90%;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease; /* Efecto de transición */
+}
+
+/* Efecto al pasar sobre el contenedor */
+.table-container:hover {
+    box-shadow: 0 12px 25px rgba(139, 111, 72, 0.3);
+    transform: scale(1.01);
+}
+
+/* Tabla general */
+.table {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    background-color: #BFA58A; /* Café claro */
+    color: #FFFFFF;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.table tbody td {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    padding: 12px;
+    text-align: center;
+    color: #5A4433;
+    border-top: 1px solid #E8D8C3;
+}
+
+/* Efecto hover en filas de la tabla */
+.table tbody tr:hover {
+    background-color: #F9F3EC;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo de las etiquetas de estado */
+.badge {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    border-radius: 15px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Colores de estado */
+.bg-pending {
+    background-color: #F5D7A1; /* Amarillo claro */
+    color: #5A4433;
+}
+
+.bg-completed {
+    background-color: #4CAF50; /* Verde */
+    color: #FFFFFF;
+}
+
+.bg-cancelled {
+    background-color: #E57373; /* Rojo */
+    color: #FFFFFF;
+}
+
+/* Títulos estilizados */
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    color: #8B6F48; /* Café oscuro */
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .table thead {
+        display: none;
+    }
+    .table tbody td {
+        display: block;
+        text-align: right;
+    }
+    .table tbody td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+    }
+}

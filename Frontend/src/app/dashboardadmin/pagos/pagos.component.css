@@ -1,0 +1,92 @@
+/* Fondo general con degradado y textura */
+body {
+    background: linear-gradient(to bottom, #fdfcf8, #f4e9df);
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/paper.png');
+    font-family: 'Lora', serif; /* Fuente elegante */
+    color: #5A4433;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor estilizado de la tabla */
+  .table-container {
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 85%;
+    backdrop-filter: blur(5px);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Tabla estilizada */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .table thead th {
+    background-color: #BFA58A;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px;
+    font-size: 1rem;
+  }
+  
+  .table tbody td {
+    padding: 12px;
+    font-size: 1rem;
+    color: #5A4433;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Efecto de resplandor en las filas */
+  .table tbody tr:hover {
+    background-color: #F4EDE3; /* Color de fondo al pasar el cursor */
+    box-shadow: 0 4px 15px rgba(139, 111, 72, 0.5); /* Resplandor café */
+    transform: scale(1.01); /* Pequeño zoom para realzar */
+    transition: all 0.3s ease;
+  }
+  
+  /* Estados estilizados */
+  .badge {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .bg-success {
+    background-color: #6D9773; /* Verde pastel */
+    color: white;
+  }
+  
+  .bg-warning {
+    background-color: #EFD8A3; /* Amarillo suave */
+    color: #5A4433;
+  }
+  
+  .bg-danger {
+    background-color: #D1816C; /* Rojo coral */
+    color: white;
+  }
+  
+  /* Título estilizado */
+  h2 {
+    font-size: 2.5rem;
+    color: #8B6F48;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
