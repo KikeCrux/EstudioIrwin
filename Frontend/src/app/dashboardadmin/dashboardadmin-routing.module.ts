@@ -5,19 +5,22 @@ import { CitasComponent } from './citas/citas.component';
 import { PagosComponent } from './pagos/pagos.component';
 import { ServidoresComponent } from './servidores/servidores.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { DashboardadminLayoutComponent } from './dashboardadmin-layout/dashboardadmin-layout.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: HomeComponent, // Layout principal
     children: [
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: 'home', component: DashboardadminLayoutComponent },
       { path: 'citas', component: CitasComponent },
-      { path: 'home', component: HomeComponent},  // Agregar la ruta a AgendarComponent
-      { path: 'pagos',component: PagosComponent},
+      { path: 'pagos', component: PagosComponent },
       { path: 'servidores', component: ServidoresComponent },
       { path: 'usuarios', component: UsuariosComponent },
     ]
-  }
+  },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
