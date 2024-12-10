@@ -13,6 +13,7 @@ import { AgendarComponent } from './agendar/agendar.component';
 import { AgConfirmacionComponent } from './ag-confirmacion/ag-confirmacion.component';
 import { DashboardLayoutComponent } from './dashboard-layout/dashboard-layout.component';
 import { DetalleGaleriaComponent } from './detalle-galeria/detalle-galeria.component';
+import { CollageComponent } from './collage/collage.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { DetalleGaleriaComponent } from './detalle-galeria/detalle-galeria.compo
     AgConfirmacionComponent,
     DashboardLayoutComponent,
     DetalleGaleriaComponent,
+    CollageComponent,
   ],
   imports: [
     CommonModule,

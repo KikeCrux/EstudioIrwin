@@ -1,0 +1,21 @@
+<div class="container">
+    <!-- Seleccion de imagenes -->
+    <label class="custom-file-button">
+      Seleccionar fotos
+      <input type="file" (change)="onFileChange($event)" multiple>
+    </label>
+  
+    <!-- Collage container centrado en la página -->
+    <div class="collage-container" #captureElement>
+      <div *ngFor="let image of images; let i = index"
+           class="collage-item"
+           [ngStyle]="{ 'left': image.x + 'px', 'top': image.y + 'px', 'width': image.width + 'px', 'height': image.height + 'px' }">
+        <img [src]="image.src" alt="image" (load)="onImageLoad()" class="collage-img">
+        <button (click)="removeImage(i)" class="delete-button">Eliminar</button>
+      </div>
+    </div>
+  
+    <!-- Guardar collage en jpg -->
+    <button (click)="saveCollage()">Guardar Collage</button>
+  </div>
+  
