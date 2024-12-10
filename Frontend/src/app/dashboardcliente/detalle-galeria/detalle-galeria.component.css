@@ -1,0 +1,65 @@
+/* Contenedor del título */
+.titulo-container {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  /* Título más grande y estilizado */
+  .titulo-elegante {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px; /* Tamaño más grande */
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .titulo-elegante::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #e2bb87;
+    margin: 10px auto;
+  }
+  
+  /* Botón más grande */
+  .btn-collage {
+    font-size: 22px; /* Botón más grande */
+    font-weight: bold;
+    color: #fff;
+    background-color: #e2bb87;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px; /* Padding más amplio */
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .btn-collage:hover {
+    background-color: #764f20;
+    transform: scale(1.1);
+  }
+  
+  /* Carrusel de imágenes */
+  .carrusel-container {
+    margin-top: 30px;
+  }
+  
+  .img-grande {
+    width: 100%;
+    height: 700px; /* Imágenes más grandes */
+    object-fit: contain; /* Mostrar imagen completa */
+    background-color: #f8f8f8;
+  }
+  
+  /* Controles del carrusel */
+  .carousel-control .glyphicon {
+    font-size: 48px; /* Flechas más grandes */
+    color: #444;
+    opacity: 0.9;
+  }
+  

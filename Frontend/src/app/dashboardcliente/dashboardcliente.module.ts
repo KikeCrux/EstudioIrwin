@@ -12,6 +12,7 @@ import { WidgetsComponent } from './widgets/widgets.component';
 import { AgendarComponent } from './agendar/agendar.component';
 import { AgConfirmacionComponent } from './ag-confirmacion/ag-confirmacion.component';
 import { DashboardLayoutComponent } from './dashboard-layout/dashboard-layout.component';
+import { DetalleGaleriaComponent } from './detalle-galeria/detalle-galeria.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { DashboardLayoutComponent } from './dashboard-layout/dashboard-layout.co
     WidgetsComponent,
     AgendarComponent,
     AgConfirmacionComponent,
-    DashboardLayoutComponent
+    DashboardLayoutComponent,
+    DetalleGaleriaComponent,
   ],
   imports: [
     CommonModule,

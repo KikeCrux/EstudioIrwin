@@ -8,6 +8,7 @@ import { WidgetsComponent } from './widgets/widgets.component';
 import { AgendarComponent } from './agendar/agendar.component'; // Agregar la importación de AgendarComponent
 import { AgConfirmacionComponent } from './ag-confirmacion/ag-confirmacion.component';
 import { DashboardLayoutComponent } from './dashboard-layout/dashboard-layout.component';
+import { DetalleGaleriaComponent } from './detalle-galeria/detalle-galeria.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,7 @@ const routes: Routes = [
     children: [
       { path: 'home', component: WidgetsComponent },
       { path: 'galeria', component: GaleriaComponent },
+      { path: 'detalle', component: DetalleGaleriaComponent },
       { path: 'calendario', component: CalendarioComponent },
       { path: 'agendar', component: AgendarComponent },
       { path: 'agconfirmacion', component: AgConfirmacionComponent },
