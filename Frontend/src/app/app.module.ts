@@ -19,6 +19,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BuscadorAdminComponent } from './components/buscador-admin/buscador-admin.component';
 import { SidebarAdminComponent } from './components/sidebar-admin/sidebar-admin.component';
+import { PreegaleriaComponent } from './components/preegaleria/preegaleria.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { SidebarAdminComponent } from './components/sidebar-admin/sidebar-admin.
     LoginComponent,
     RegistrarComponent,
     CalendarioComponent,
+    PreegaleriaComponent,
   ],
   imports: [
     BrowserModule,
