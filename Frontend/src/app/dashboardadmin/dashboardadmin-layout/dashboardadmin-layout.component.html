@@ -1,13 +1,75 @@
-<div class="dashboard-container">
-    <!-- Buscador Admin -->
-    <app-buscador-admin></app-buscador-admin> <!-- Aquí se carga el buscador -->
-  
-    <!-- Sidebar -->
-    <app-sidebar-admin></app-sidebar-admin>
-  
-    <!-- Contenido dinámico -->
-    <div class="dashboard-content">
-      <router-outlet></router-outlet>
+<div class="dashboard-layout container-fluid py-5">
+  <!-- Galería Destacada -->
+  <section class="section mb-5 text-center">
+    <h3 class="section-title mb-4">
+      <span class="text-highlight">Galerías Destacadas</span>
+    </h3>
+    <div id="carouselGalerias" class="carousel slide shadow-sm rounded" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let galeria of galerias; let i = index" class="carousel-item" [ngClass]="{'active': i === 0}">
+          <img [src]="galeria.url" class="d-block w-100 rounded" alt="{{ galeria.nombre }}">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalerias" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselGalerias" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
     </div>
-  </div>
-  
+  </section>
+
+  <!-- Súper Usuarios -->
+  <section class="section mb-5">
+    <h3 class="section-title mb-4">
+      <span class="text-highlight">Súper Usuarios</span>
+    </h3>
+    <div class="row g-4 justify-content-center">
+      <div *ngFor="let usuario of usuarios" class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card shadow-sm p-3 text-center h-100 border-0">
+          <h5 class="card-title">{{ usuario.nombre }}</h5>
+          <span class="badge badge-success mb-2">Activo</span>
+          <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Próximas Citas -->
+  <section class="section mb-5">
+    <h3 class="section-title mb-4">
+      📅 <span class="text-highlight">Próximas Citas</span>
+    </h3>
+    <div class="table-responsive">
+      <table class="table align-middle shadow-sm">
+        <thead class="table-header">
+          <tr>
+            <th>Cliente</th>
+            <th>Fecha</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let cita of citas">
+            <td>{{ cita.cliente }}</td>
+            <td>{{ cita.fecha }}</td>
+            <td>{{ cita.descripcion }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section mb-5">
+    <h3 class="section-title mb-4">
+      🔔 <span class="text-highlight">Notificaciones Recientes</span>
+    </h3>
+    <div class="row g-4">
+      <div *ngFor="let notification of notifications" class="col-12 col-md-6 col-lg-4">
+        <div class="notification-card shadow-sm p-4">
+          <p class="notification-text">{{ notification }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

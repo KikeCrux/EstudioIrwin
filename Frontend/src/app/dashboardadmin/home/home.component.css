@@ -1,180 +1,26 @@
-/* General */
-body {
-    margin: 0;
-    font-family: 'Lora', serif;
-    background: linear-gradient(to bottom, #fdfcf8, #f4e9df);
-    color: #5A4433;
-  }
-  
-  /* Layout principal */
-  .dashboard-layout {
-    display: flex;
-  }
-  
-  .content-area {
-    flex-grow: 1;
-    margin-left: 250px; /* Espacio para el sidebar */
-    padding: 20px;
-  }
-  
-  /* Sidebar */
-  app-sidebar-admin {
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    background-color: #BFA58A;
-    color: white;
-    padding: 20px 0;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  app-sidebar-admin ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  app-sidebar-admin li {
-    padding: 15px 20px;
-    transition: background-color 0.3s ease;
-  }
-  
-  app-sidebar-admin li:hover {
-    background-color: #A9826B;
-    cursor: pointer;
-  }
-  
-  app-sidebar-admin a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  /* Header */
-  app-buscador-admin {
-    background-color: #EDE0D4;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  app-buscador-admin input {
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 8px 15px;
-    outline: none;
-  }
-  
-  /* Contenido Principal */
-  .dashboard-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #5A4433;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  /* Carrusel de Galerías */
-  .carousel {
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .carousel-img {
-    object-fit: cover;
-    height: 400px; /* Altura fija */
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    filter: invert(100%);
-  }
-  
-  /* Súper Usuarios */
-  .super-usuarios-container {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .usuario-card {
-    background: #FFF;
-    border: 1px solid #EDE0D4;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 200px;
-  }
-  
-  .usuario-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-  }
-  
-  .usuario-card strong {
-    display: block;
-    margin-bottom: 10px;
-    color: #5A4433;
-  }
-  
-  .stars {
-    color: #FFD700; /* Amarillo */
-    font-size: 1.2rem;
-  }
-  
-  /* Próximas Citas */
-  .table {
-    background-color: #FFF;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .table th {
-    background-color: #BFA58A;
-    color: #FFF;
-    padding: 12px;
-  }
-  
-  .table td {
-    padding: 10px;
-  }
-  
-  /* Notificaciones */
-  .notifications {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .alert {
-    border-radius: 8px;
-    padding: 15px 20px;
-    font-size: 1rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .alert:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .alert-success {
-    background-color: #E9F7EF;
-    color: #2ECC71;
-  }
-  
-  .alert-info {
-    background-color: #EAF3FC;
-    color: #2980B9;
-  }
-  
-  .alert-warning {
-    background-color: #FEF9E7;
-    color: #D4AC0D;
-  }
-  
+.home-layout {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 60px 1fr;
+  height: 100vh;
+}
+
+app-buscador-admin {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+app-sidebar-admin {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  height: 100%;
+  background-color: #f4f4f4;
+}
+
+.main-content {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+}

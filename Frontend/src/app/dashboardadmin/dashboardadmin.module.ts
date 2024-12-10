@@ -21,7 +21,7 @@ import { BuscadorAdminComponent } from '../components/buscador-admin/buscador-ad
     ServidoresComponent,
     UsuariosComponent,
     SidebarAdminComponent,
-    BuscadorAdminComponent // Declarado aquí
+    BuscadorAdminComponent
   ],
   imports: [
     CommonModule,
@@ -29,4 +29,4 @@ import { BuscadorAdminComponent } from '../components/buscador-admin/buscador-ad
     DashboardadminRoutingModule
   ]
 })
-export class DashboardadminModule {}
+export class DashboardadminModule { }

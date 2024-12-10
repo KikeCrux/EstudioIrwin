@@ -10,10 +10,10 @@ import { DashboardadminLayoutComponent } from './dashboardadmin-layout/dashboard
 const routes: Routes = [
   {
     path: '',
-    component: DashboardadminLayoutComponent, // Layout principal
+    component: HomeComponent,
     children: [
-      { path: '', redirectTo: 'home', pathMatch: 'full' }, // Redirección inicial
-      { path: 'home', component: HomeComponent },         // Ruta para Home
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: 'home', component: DashboardadminLayoutComponent },
       { path: 'citas', component: CitasComponent },
       { path: 'pagos', component: PagosComponent },
       { path: 'servidores', component: ServidoresComponent },
@@ -27,4 +27,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class DashboardadminRoutingModule {}
+export class DashboardadminRoutingModule { }

@@ -1,17 +1,115 @@
-.dashboard-container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .sidebar {
-    width: 250px;
-    background-color: #f4f4f4;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-  }
-  
-  .dashboard-content {
-    flex-grow: 1;
-    padding: 20px;
-    overflow-y: auto;
-  }
-  
+/* Estilo General */
+.dashboard-layout {
+  background-color: #fdfaf7;
+  /* Fondo cálido */
+  padding: 40px;
+  font-family: 'Georgia', serif;
+  /* Cambiado para mayor elegancia */
+}
+
+/* Secciones */
+.section {
+  margin-bottom: 60px;
+  /* Espaciado entre widgets */
+}
+
+/* Títulos de Secciones */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #654321;
+  /* Color cálido para títulos */
+}
+
+.text-highlight {
+  color: #a67c52;
+  /* Color de énfasis */
+}
+
+/* Carrusel */
+.carousel-inner img {
+  max-height: 500px;
+  /* Tamaño del carrusel */
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarjetas */
+.card {
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #906c5b;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.25rem;
+}
+
+/* Tabla */
+.table {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.table-header {
+  background-color: #e4d7c8;
+  color: #654321;
+  font-weight: bold;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #f1e8de;
+}
+
+.table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.table-responsive {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5em 1em;
+  border-radius: 12px;
+}
+
+.badge-success {
+  background-color: #d4a373;
+  color: white;
+}
+
+.badge-success:hover {
+  background-color: #b3895e;
+}
+
+.notification-card {
+  background-color: #fff;
+  border: 1px solid #e4d7c8;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-card:hover {
+  background-color: #fdf4e3;
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+
+.notification-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #654321;
+  line-height: 1.5;
+}

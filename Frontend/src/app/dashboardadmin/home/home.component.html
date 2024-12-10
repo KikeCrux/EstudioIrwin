@@ -1,92 +1,12 @@
-<div class="dashboard-layout">
-    <!-- Sidebar del Admin -->
-    <app-sidebar-admin></app-sidebar-admin>
-    <!-- Contenido principal -->
-  <div class="dashboard-content">
-    <router-outlet></router-outlet> <!-- Aquí se cargarán los paneles -->
+<div class="home-layout">
+  <!-- Header o Buscador -->
+  <app-buscador-admin></app-buscador-admin>
+
+  <!-- Sidebar -->
+  <app-sidebar-admin></app-sidebar-admin>
+
+  <!-- Contenido Principal -->
+  <div class="main-content">
+    <router-outlet></router-outlet>
   </div>
-  
-    <!-- Área de Contenido -->
-    <div class="content-area">
-      <!-- Header del Admin -->
-      <app-buscador-admin></app-buscador-admin>
-  
-      <!-- Contenido Principal -->
-      <div class="container mt-5 mb-5">
-      
-  
-        <!-- Galerías Destacadas -->
-        <section class="section mt-5">
-          <h3 class="section-title">📷 Galerías Destacadas</h3>
-          <div id="carouselGalerias" class="carousel slide" data-bs-ride="carousel">
-            <!-- Imágenes del Carrusel -->
-            <div class="carousel-inner">
-              <div *ngFor="let galeria of galerias; let i = index" class="carousel-item" [ngClass]="{'active': i === 0}">
-                <img [src]="galeria.url" class="d-block w-100 carousel-img" alt="{{ galeria.nombre }}">
-              </div>
-            </div>
-  
-            <!-- Controles -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalerias" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselGalerias" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-          </div>
-        </section>
-  
-        <!-- Súper Usuarios -->
-        <section class="section mt-5">
-          <h3 class="section-title">👤 Súper Usuarios</h3>
-          <div class="super-usuarios-container">
-            <div *ngFor="let usuario of usuarios" class="usuario-card">
-              <p>
-                <strong>{{ usuario.nombre }}</strong>
-                <span class="badge bg-success">Activo</span>
-              </p>
-              <div class="stars">⭐️⭐️⭐️⭐️⭐️</div>
-            </div>
-          </div>
-        </section>
-  
-        <!-- Próximas Citas -->
-        <section class="section mt-5">
-          <h3 class="section-title">📅 Próximas Citas</h3>
-          <table class="table table-hover table-striped text-center">
-            <thead>
-              <tr>
-                <th>Cliente</th>
-                <th>Fecha</th>
-                <th>Descripción</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor="let cita of citas">
-                <td>{{ cita.cliente }}</td>
-                <td>{{ cita.fecha }}</td>
-                <td>{{ cita.descripcion }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-  
-        <!-- Notificaciones -->
-        
-           
-        <div class="notifications mt-4">
-            <h3 class="section-title">🔔 Notificaciones</h3>
-          <div class="alert alert-success">
-            💰 ¡Se ha depositado <strong>$15,500.00</strong> a tu cuenta el <strong>2024-12-08</strong>! Método: Transferencia.
-          </div>
-          <div class="alert alert-info">
-            🛠️ ¡Actualización del sistema completada el 2024-12-09!
-          </div>
-          <div class="alert alert-warning">
-            ⚠️ Recuerda actualizar los datos de tus clientes antes del 2024-12-15.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
+</div>
