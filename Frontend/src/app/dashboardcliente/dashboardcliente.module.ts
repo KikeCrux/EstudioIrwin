@@ -11,6 +11,7 @@ import { BuscadorClienteComponent } from '../components/buscador-cliente/buscado
 import { WidgetsComponent } from './widgets/widgets.component';
 import { AgendarComponent } from './agendar/agendar.component';
 import { AgConfirmacionComponent } from './ag-confirmacion/ag-confirmacion.component';
+import { DashboardLayoutComponent } from './dashboard-layout/dashboard-layout.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AgConfirmacionComponent } from './ag-confirmacion/ag-confirmacion.compo
     BuscadorClienteComponent,
     WidgetsComponent,
     AgendarComponent,
-    AgConfirmacionComponent
+    AgConfirmacionComponent,
+    DashboardLayoutComponent
   ],
   imports: [
     CommonModule,

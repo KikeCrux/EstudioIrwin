@@ -1,22 +1,128 @@
-.dashboard-layout {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: auto 1fr;
-    height: 100vh;
-}
-
-.content-area {
-    margin-top: 60px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    overflow-y: auto;
-}
-
-app-sidebar {
-    grid-column: 1 / 2;
-    height: 100%;
-}
-
-app-header {
-    grid-column: 2 / 3;
-}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */
+    background-color: #f9f6f2; /* Fondo general en beige claro */
+    color: #5c3d2e; /* Café oscuro para el texto */
+    line-height: 1.6;
+  }
+  
+  /* Botón Café */
+  .btn-cafe {
+    background-color: #a67c52; /* Café medio */
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-cafe:hover {
+    background-color: #6e5640; /* Café oscuro */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Styles */
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card p {
+    margin: 0;
+    color: #5c3d2e; /* Café oscuro */
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-weight: 700;
+    color: #8c7354; /* Café medio */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Carousel Styles */
+  #carouselGaleria {
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .carousel-inner img {
+    height: 400px; /* Altura más moderada */
+    object-fit: cover; /* Mantener proporción */
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #a67c52; /* Café */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px;
+  }
+  
+  /* Notificaciones */
+  .bg-notification {
+    background-color: #f3e8dd; /* Fondo beige claro */
+    color: #5c3d2e; /* Café oscuro */
+    border-left: 5px solid #a67c52; /* Borde decorativo */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .bg-notification:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icono-notificacion {
+    font-size: 2.5rem; /* Íconos más grandes */
+    color: #a67c52; /* Café medio */
+    margin-right: 15px;
+  }
+  
+  p.fw-bold {
+    color: #5c3d2e;
+    font-weight: 600;
+  }
+  
+  /* Shadow for All Sections */
+  .shadow-sm {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      height: 250px; /* Reducir altura en pantallas pequeñas */
+    }
+  
+    .btn-cafe {
+      padding: 8px 20px;
+      font-size: 0.9rem;
+    }
+  
+    .icono-notificacion {
+      font-size: 2rem;
+    }
+  }
+  
