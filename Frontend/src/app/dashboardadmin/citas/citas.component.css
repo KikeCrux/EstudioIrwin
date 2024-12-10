@@ -2,22 +2,25 @@
 body {
     background: linear-gradient(to bottom, #fdfcf8, #f4e9df);
     background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/paper.png');
-    font-family: 'Lora', serif; /* Fuente elegante */
+    font-family: 'Georgia', serif;
     color: #5A4433;
     margin: 0;
     padding: 0;
-  }
-  
+}
+
 /* Contenedor principal estilizado */
 .table-container {
-    background: rgba(255, 255, 255, 0.95); /* Fondo semi-transparente */
+    background: rgba(255, 255, 255, 0.95);
+    /* Fondo semi-transparente */
     border-radius: 12px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    /* Sombra */
     padding: 20px;
     margin: 0 auto;
     max-width: 90%;
     backdrop-filter: blur(5px);
-    transition: all 0.3s ease; /* Efecto de transición */
+    transition: all 0.3s ease;
+    /* Efecto de transición */
 }
 
 /* Efecto al pasar sobre el contenedor */
@@ -35,9 +38,10 @@ body {
 }
 
 .table thead th {
-    background-color: #BFA58A; /* Café claro */
+    background-color: #BFA58A;
+    /* Café claro */
     color: #FFFFFF;
-    font-family: 'Lora', serif;
+    font-family: 'Georgia', serif;
     font-weight: bold;
     text-transform: uppercase;
     padding: 12px;
@@ -46,7 +50,7 @@ body {
 }
 
 .table tbody td {
-    font-family: 'Lora', serif;
+    font-family: 'Georgia', serif;
     font-size: 1rem;
     padding: 12px;
     text-align: center;
@@ -65,32 +69,36 @@ body {
     padding: 8px 12px;
     font-size: 0.85rem;
     border-radius: 15px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Georgia', serif;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 /* Colores de estado */
 .bg-pending {
-    background-color: #F5D7A1; /* Amarillo claro */
+    background-color: #F5D7A1;
+    /* Amarillo claro */
     color: #5A4433;
 }
 
 .bg-completed {
-    background-color: #4CAF50; /* Verde */
+    background-color: #4CAF50;
+    /* Verde */
     color: #FFFFFF;
 }
 
 .bg-cancelled {
-    background-color: #E57373; /* Rojo */
+    background-color: #E57373;
+    /* Rojo */
     color: #FFFFFF;
 }
 
 /* Títulos estilizados */
 h2 {
     font-size: 2.5rem;
-    font-family: 'Merriweather', serif;
-    color: #8B6F48; /* Café oscuro */
+    font-family: 'Georgia', serif;
+    color: #8B6F48;
+    /* Café oscuro */
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
@@ -104,10 +112,12 @@ h2 {
     .table thead {
         display: none;
     }
+
     .table tbody td {
         display: block;
         text-align: right;
     }
+
     .table tbody td::before {
         content: attr(data-label);
         font-weight: bold;

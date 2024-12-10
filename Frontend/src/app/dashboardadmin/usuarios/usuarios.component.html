@@ -1,33 +1,32 @@
 <div class="container mt-5 mb-5">
-    <!-- Título -->
-    <h2 class="text-center mb-4 title">👥 Usuarios Registrados</h2>
-  
-    <!-- Contenedor de tarjetas -->
-    <div class="user-cards-container">
-      <div *ngFor="let usuario of usuarios" class="user-card">
-        <!-- Imagen del perfil -->
-        <div class="profile-picture">
-          <img [src]="usuario.imagen" alt="{{ usuario.nombre }}">
-        </div>
-  
-        <!-- Información del usuario -->
-        <div class="user-info">
-          <h5>{{ usuario.nombre }}</h5>
-          <p>{{ usuario.correo }}</p>
-          <p class="fecha"><strong>Registrado:</strong> {{ usuario.registro }}</p>
-        </div>
-  
-        <!-- Estado -->
-        <div class="user-status">
-          <span class="badge" [ngClass]="{
+  <!-- Título -->
+  <h2 class="text-center mb-4 title">Usuarios</h2>
+
+  <!-- Contenedor de tarjetas -->
+  <div class="user-cards-container">
+    <div *ngFor="let usuario of usuarios" class="user-card">
+      <!-- Imagen del perfil -->
+      <div class="profile-picture">
+        <img [src]="usuario.imagen" alt="{{ usuario.nombre }}">
+      </div>
+
+      <!-- Información del usuario -->
+      <div class="user-info">
+        <h5>{{ usuario.nombre }}</h5>
+        <p>{{ usuario.correo }}</p>
+        <p class="fecha"><strong>Registrado:</strong> {{ usuario.registro }}</p>
+      </div>
+
+      <!-- Estado -->
+      <div class="user-status">
+        <span class="badge" [ngClass]="{
             'bg-success': usuario.estado === 'Activo',
             'bg-secondary': usuario.estado === 'Inactivo',
             'bg-danger': usuario.estado === 'Bloqueado'
           }">
-            {{ usuario.estado }}
-          </span>
-        </div>
+          {{ usuario.estado }}
+        </span>
       </div>
     </div>
   </div>
-  
+</div>

@@ -1,30 +1,29 @@
 <div class="container mt-5 mb-5">
-    <!-- Título General -->
-    <h2 class="text-center mb-4 title">📷 Galerías de Imágenes</h2>
-  
-    <!-- Recorremos cada galería -->
-    <div *ngFor="let galeria of galerias" class="mb-5">
-      <!-- Título de la galería -->
-      <h3 class="gallery-title">{{ galeria.nombre }}</h3>
-  
-      <!-- Contenedor de la galería -->
-      <div class="gallery-container">
-        <div *ngFor="let imagen of galeria.imagenes" class="gallery-item">
-          <!-- Imagen -->
-          <div class="image-wrapper">
-            <img [src]="imagen.url" alt="{{ imagen.nombre }}" class="gallery-image">
-          </div>
-          <!-- Información -->
-          <div class="gallery-info">
-            <h5>{{ imagen.nombre }}</h5>
-            <span class="badge" [ngClass]="{
+  <!-- Título General -->
+  <h2 class="text-center mb-4 title">Galerías de Imágenes</h2>
+
+  <!-- Recorremos cada galería -->
+  <div *ngFor="let galeria of galerias" class="mb-5">
+    <!-- Título de la galería -->
+    <h3 class="gallery-title">{{ galeria.nombre }}</h3>
+
+    <!-- Contenedor de la galería -->
+    <div class="gallery-container">
+      <div *ngFor="let imagen of galeria.imagenes" class="gallery-item">
+        <!-- Imagen -->
+        <div class="image-wrapper">
+          <img [src]="imagen.url" alt="{{ imagen.nombre }}" class="gallery-image">
+        </div>
+        <!-- Información -->
+        <div class="gallery-info">
+          <h5>{{ imagen.nombre }}</h5>
+          <span class="badge" [ngClass]="{
               'bg-success': imagen.estado === 'Subida',
               'bg-warning': imagen.estado === 'Pendiente'
             }">{{ imagen.estado }}</span>
-            <p class="fecha">{{ imagen.fecha }}</p>
-          </div>
+          <p class="fecha">{{ imagen.fecha }}</p>
         </div>
       </div>
     </div>
   </div>
-  
+</div>

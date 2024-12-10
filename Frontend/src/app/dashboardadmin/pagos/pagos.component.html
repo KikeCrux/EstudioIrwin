@@ -1,41 +1,40 @@
 <div class="container mt-5 mb-5">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Título -->
-    <h2 class="text-center mb-4 title">💳 Pagos Realizados</h2>
-  
-    <!-- Contenedor estilizado -->
-    <div class="table-container">
-      <table class="table table-modern text-center align-middle">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Cliente</th>
-            <th>Fecha</th>
-            <th>Monto</th>
-            <th>Método</th>
-            <th>Estado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let pago of pagos; let i = index">
-            <td>{{ i + 1 }}</td>
-            <td>{{ pago.cliente }}</td>
-            <td>{{ pago.fecha }}</td>
-            <td>${{ pago.monto | number:'1.2-2' }}</td>
-            <td>{{ pago.metodo }}</td>
-            <td>
-              <span class="badge" [ngClass]="{
+  <!-- Título -->
+  <h2 class="text-center title">Pagos Realizados</h2>
+
+  <!-- Contenedor estilizado -->
+  <div class="table-container">
+    <table class="table table-modern text-center align-middle">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Cliente</th>
+          <th>Fecha</th>
+          <th>Monto</th>
+          <th>Método</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pago of pagos; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ pago.cliente }}</td>
+          <td>{{ pago.fecha }}</td>
+          <td>${{ pago.monto | number:'1.2-2' }}</td>
+          <td>{{ pago.metodo }}</td>
+          <td>
+            <span class="badge" [ngClass]="{
                 'bg-success': pago.estado === 'Completado',
                 'bg-warning': pago.estado === 'Pendiente',
                 'bg-danger': pago.estado === 'Rechazado'
               }">
-                {{ pago.estado }}
-              </span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+              {{ pago.estado }}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  
+</div>

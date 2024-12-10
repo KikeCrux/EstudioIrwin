@@ -1,41 +1,31 @@
-/* Estilo General */
 .dashboard-layout {
   background-color: #fdfaf7;
-  /* Fondo cálido */
   padding: 40px;
   font-family: 'Georgia', serif;
-  /* Cambiado para mayor elegancia */
 }
 
-/* Secciones */
 .section {
   margin-bottom: 60px;
-  /* Espaciado entre widgets */
 }
 
-/* Títulos de Secciones */
 .section-title {
   font-size: 2rem;
   font-weight: bold;
   color: #654321;
-  /* Color cálido para títulos */
 }
 
 .text-highlight {
+  font-size: 36px;
   color: #a67c52;
-  /* Color de énfasis */
 }
 
-/* Carrusel */
 .carousel-inner img {
   max-height: 500px;
-  /* Tamaño del carrusel */
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Tarjetas */
 .card {
   border-radius: 12px;
   background-color: #fff;
@@ -53,7 +43,6 @@
   font-size: 1.25rem;
 }
 
-/* Tabla */
 .table {
   margin-top: 20px;
   font-size: 1rem;
@@ -78,7 +67,6 @@
   border-radius: 8px;
 }
 
-/* Badges */
 .badge {
   font-size: 0.9rem;
   padding: 0.5em 1em;

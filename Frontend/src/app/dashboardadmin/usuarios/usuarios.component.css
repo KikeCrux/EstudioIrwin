@@ -1,103 +1,109 @@
 /* Fondo general */
 body {
-    background: linear-gradient(to bottom, #FDFCF8, #F4EDE3);
-    font-family: 'Lora', serif;
-    color: #5A4433;
-    margin: 0;
-  }
-  
-  /* Título principal */
-  .title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #8B6F48;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-  }
-  
-  /* Contenedor de tarjetas */
-  .user-cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px; /* Espacio entre tarjetas */
-    margin: 0 auto;
-    max-width: 1200px;
-  }
-  
-  /* Tarjeta de usuario */
-  .user-card {
-    display: flex;
-    align-items: center;
-    background: #FFFFFF;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 400px; /* Ancho fijo */
-    padding: 25px;
-    gap: 20px; /* Mayor separación entre elementos dentro de la tarjeta */
-    margin-bottom: 20px; /* Más separación entre filas */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .user-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 20px rgba(139, 111, 72, 0.5);
-  }
-  
-  /* Imagen de perfil */
-  .profile-picture img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #BFA58A;
-  }
-  
-  /* Información del usuario */
-  .user-info {
-    flex-grow: 1;
-  }
-  
-  .user-info h5 {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #5A4433;
-  }
-  
-  .user-info p {
-    margin: 5px 0;
-    font-size: 0.9rem;
-    color: #6D4C41;
-  }
-  
-  .fecha {
-    color: #8B6F48;
-    font-size: 0.85rem;
-  }
-  
-  /* Estado del usuario */
-  .user-status .badge {
-    padding: 8px 12px;
-    font-size: 0.85rem;
-    border-radius: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  .bg-success {
-    background-color: #4CAF50; /* Verde */
-    color: white;
-  }
-  
-  .bg-secondary {
-    background-color: #BFA58A; /* Beige oscuro */
-    color: white;
-  }
-  
-  .bg-danger {
-    background-color: #E57373; /* Rojo */
-    color: white;
-  }
-  
+  background: linear-gradient(to bottom, #FDFCF8, #F4EDE3);
+  font-family: 'Georgia', serif;
+  color: #5A4433;
+  margin: 0;
+}
+
+/* Título principal */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8B6F48;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* Contenedor de tarjetas */
+.user-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  /* Espacio entre tarjetas */
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Tarjeta de usuario */
+.user-card {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  /* Ancho fijo */
+  padding: 25px;
+  gap: 20px;
+  /* Mayor separación entre elementos dentro de la tarjeta */
+  margin-bottom: 20px;
+  /* Más separación entre filas */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(139, 111, 72, 0.5);
+}
+
+/* Imagen de perfil */
+.profile-picture img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #BFA58A;
+}
+
+/* Información del usuario */
+.user-info {
+  flex-grow: 1;
+}
+
+.user-info h5 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5A4433;
+}
+
+.user-info p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #6D4C41;
+}
+
+.fecha {
+  color: #8B6F48;
+  font-size: 0.85rem;
+}
+
+/* Estado del usuario */
+.user-status .badge {
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bg-success {
+  background-color: #4CAF50;
+  /* Verde */
+  color: white;
+}
+
+.bg-secondary {
+  background-color: #BFA58A;
+  /* Beige oscuro */
+  color: white;
+}
+
+.bg-danger {
+  background-color: #E57373;
+  /* Rojo */
+  color: white;
+}
