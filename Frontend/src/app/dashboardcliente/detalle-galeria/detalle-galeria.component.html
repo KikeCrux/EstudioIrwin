@@ -1,41 +1,34 @@
 <div class="container titulo-container">
-    <!-- Título estilizado -->
-    <div class="text-center">
-      <h1 class="titulo-elegante">PREBODA</h1>
-      <a href="/collage" class="btn btn-collage">CREAR COLLAGE</a>
-    </div>
+  <!-- Título estilizado -->
+  <div class="text-center">
+    <h1 class="titulo-elegante">PREBODA</h1>
+    <a href="/dashboardC/collage" class="btn btn-collage">CREAR COLLAGE</a>
   </div>
-  
-  <!-- Carrusel de imágenes -->
-  <div class="container carrusel-container">
-    <div id="carruselGaleria" class="carousel slide" data-ride="carousel" data-interval="3000">
-      <!-- Indicadores -->
-      <ol class="carousel-indicators">
-        <li *ngFor="let img of imagenesCarrusel; let i = index" 
-            [class.active]="i === 0"
-            data-target="#carruselGaleria" 
-            [attr.data-slide-to]="i">
-        </li>
-      </ol>
-  
-      <!-- Slides -->
-      <div class="carousel-inner">
-        <div *ngFor="let img of imagenesCarrusel; let i = index" 
-             class="item" 
-             [class.active]="i === 0">
-          <img [src]="img" 
-               class="img-responsive img-grande center-block"
-               alt="Imagen Carrusel">
-        </div>
+</div>
+
+<!-- Carrusel de imágenes -->
+<div class="container carrusel-container">
+  <div id="carruselGaleria" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <!-- Indicadores -->
+    <ol class="carousel-indicators">
+      <li *ngFor="let img of imagenesCarrusel; let i = index" [class.active]="i === 0" data-target="#carruselGaleria"
+        [attr.data-slide-to]="i">
+      </li>
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div *ngFor="let img of imagenesCarrusel; let i = index" class="item" [class.active]="i === 0">
+        <img [src]="img" class="img-responsive img-grande center-block" alt="Imagen Carrusel">
       </div>
-  
-      <!-- Controles -->
-      <a class="left carousel-control" href="#carruselGaleria" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carruselGaleria" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
     </div>
+
+    <!-- Controles -->
+    <a class="left carousel-control" href="#carruselGaleria" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carruselGaleria" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
   </div>
-  
+</div>

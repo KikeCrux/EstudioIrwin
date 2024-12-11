@@ -48,3 +48,11 @@
 .options-icon:hover {
     color: #a47c5b;
 }
+
+.cliente_icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}

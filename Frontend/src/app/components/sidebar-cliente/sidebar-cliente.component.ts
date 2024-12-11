@@ -8,10 +8,4 @@ import { UserService } from 'src/app/services/user.service';
   styleUrls: ['./sidebar-cliente.component.css']
 })
 export class SidebarClienteComponent {
-  constructor(private userService: UserService, private router: Router) { }
-
-  logout(): void {
-    this.userService.logout();
-    this.router.navigate(['/login']);
-  }
 }
